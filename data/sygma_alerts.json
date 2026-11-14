@@ -1,0 +1,20 @@
+{
+  "rules": [],
+  "alerts": [
+    {
+      "id": "alr-evt-6e6764de11",
+      "ruleId": "alr-rule-d963655f",
+      "indicatorId": "IBOV",
+      "code": "IBOV",
+      "namePt": "Ibovespa B3",
+      "observedPctChange": 0.66,
+      "thresholdPct": 0.01,
+      "direction": "BOTH",
+      "value": 172458,
+      "unit": "pts",
+      "referenceDate": "2026-11-13",
+      "triggeredAt": "2026-11-14T17:48:18.398Z",
+      "acknowledged": true
+    }
+  ]
+}

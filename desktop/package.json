@@ -1,0 +1,15 @@
+{
+  "name": "sygma-brazil-economic-intelligence-desktop",
+  "version": "1.0.0",
+  "description": "SYGMA BRAZIL ECONOMIC INTELLIGENCE AI Windows Desktop Shell",
+  "main": "dist/main.js",
+  "scripts": {
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "electron": "^33.0.0"
+  }
+}

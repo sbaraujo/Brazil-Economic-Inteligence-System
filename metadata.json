@@ -1,0 +1,6 @@
+{
+  "name": "SYGMA BRAZIL ECONOMIC INTELLIGENCE AI",
+  "description": "Plataforma institucional de inteligência econômica, mercados financeiros, análise macroeconômica brasileira, risco quantitativo e econometria por SYGMA AIS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

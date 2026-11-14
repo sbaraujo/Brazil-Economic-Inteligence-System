@@ -1,0 +1,1893 @@
+[
+  {
+    "seq": 1,
+    "id": "aud-1-adc074b1",
+    "timestamp": "2026-11-14T17:35:58.432Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "B481BBF776B1251C"
+    },
+    "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "fb0ef824e61be3420a6b4f3a26841706686a8d475a88ffef8c44fbfed25a142a"
+  },
+  {
+    "seq": 2,
+    "id": "aud-2-6d770f76",
+    "timestamp": "2026-11-14T17:36:07.289Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867
+    },
+    "prevHash": "fb0ef824e61be3420a6b4f3a26841706686a8d475a88ffef8c44fbfed25a142a",
+    "hash": "ced8e29ece9d53546a4b639b30f366fe5feb706f80615eee71f064737c0d90dd"
+  },
+  {
+    "seq": 3,
+    "id": "aud-3-64816c19",
+    "timestamp": "2026-11-14T17:36:49.400Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "91DA1D78B7DDD0B2"
+    },
+    "prevHash": "ced8e29ece9d53546a4b639b30f366fe5feb706f80615eee71f064737c0d90dd",
+    "hash": "59e04b791b498e99a8a5790a9423b013790262095c357767dc4937bb3e85a268"
+  },
+  {
+    "seq": 4,
+    "id": "aud-4-a2d75e8f",
+    "timestamp": "2026-11-14T17:36:49.840Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "FC701F358A55712B"
+    },
+    "prevHash": "59e04b791b498e99a8a5790a9423b013790262095c357767dc4937bb3e85a268",
+    "hash": "00b1e0196f5e9367064a365c69c7fd6ffd642cdf93f2945b46d90e43e03c967a"
+  },
+  {
+    "seq": 5,
+    "id": "aud-5-4da2fcc5",
+    "timestamp": "2026-11-14T17:36:49.846Z",
+    "actor": "CLIENT_SESSION",
+    "service": "svc-crypto-kms",
+    "action": "E2EE_HANDSHAKE",
+    "resource": "sygma-e2ee-65aabff3960e3b6e",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "algorithm": "ECDH-P256-HKDF-SHA256"
+    },
+    "prevHash": "00b1e0196f5e9367064a365c69c7fd6ffd642cdf93f2945b46d90e43e03c967a",
+    "hash": "05b12af409a495e3ab5164978f1e6754c6ef3d80485db0e414cce140f65c6f8d"
+  },
+  {
+    "seq": 6,
+    "id": "aud-6-a1e9ed8b",
+    "timestamp": "2026-11-14T17:36:49.900Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "03383000AB404482"
+    },
+    "prevHash": "05b12af409a495e3ab5164978f1e6754c6ef3d80485db0e414cce140f65c6f8d",
+    "hash": "00ecd2ac73507891004865a14ede957ff99e0ae84a441f6259acbf3f64e54d24"
+  },
+  {
+    "seq": 7,
+    "id": "aud-7-20b4ba99",
+    "timestamp": "2026-11-14T17:36:49.900Z",
+    "actor": "UNIT_TEST",
+    "service": "svc-test",
+    "action": "VERIFY_CHAIN",
+    "resource": "TEST_RES",
+    "outcome": "SUCCESS",
+    "metadata": {},
+    "prevHash": "00ecd2ac73507891004865a14ede957ff99e0ae84a441f6259acbf3f64e54d24",
+    "hash": "bef996029387005a81f0e3c1fd8c7fdd2b645fc5926b97af66ae4b5ab8c420de"
+  },
+  {
+    "seq": 8,
+    "id": "aud-8-db9e6f6a",
+    "timestamp": "2026-11-14T17:37:15.148Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "86C0F180141019E7"
+    },
+    "prevHash": "bef996029387005a81f0e3c1fd8c7fdd2b645fc5926b97af66ae4b5ab8c420de",
+    "hash": "45a2e9d851f7ccffe2e1ce42e45f06f9de747e770d43fb4fef885dcc09650bb0"
+  },
+  {
+    "seq": 9,
+    "id": "aud-9-97a645af",
+    "timestamp": "2026-11-14T17:37:21.042Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "F01AA17DC8F7344D"
+    },
+    "prevHash": "45a2e9d851f7ccffe2e1ce42e45f06f9de747e770d43fb4fef885dcc09650bb0",
+    "hash": "78ab166ed4b2253f991583195241b5ed0241f799bf238210dce90c46ec40c34e"
+  },
+  {
+    "seq": 10,
+    "id": "aud-10-25332de4",
+    "timestamp": "2026-11-14T17:37:21.390Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "B169A50DAE9D8F9A"
+    },
+    "prevHash": "78ab166ed4b2253f991583195241b5ed0241f799bf238210dce90c46ec40c34e",
+    "hash": "3617d285d227d149c6646ba5a76ecab1e6ad1b2cf73d34c28805d6024b7e7011"
+  },
+  {
+    "seq": 11,
+    "id": "aud-11-de6c609f",
+    "timestamp": "2026-11-14T17:37:21.400Z",
+    "actor": "CLIENT_SESSION",
+    "service": "svc-crypto-kms",
+    "action": "E2EE_HANDSHAKE",
+    "resource": "sygma-e2ee-3475267d17f9f334",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "algorithm": "ECDH-P256-HKDF-SHA256"
+    },
+    "prevHash": "3617d285d227d149c6646ba5a76ecab1e6ad1b2cf73d34c28805d6024b7e7011",
+    "hash": "f11031d6f41427bffbfe5b63a0cb365c9ec0089d7a425de68eeb979c00be014a"
+  },
+  {
+    "seq": 12,
+    "id": "aud-12-7f2de028",
+    "timestamp": "2026-11-14T17:37:21.458Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "3D2CEA388AB3B38A"
+    },
+    "prevHash": "f11031d6f41427bffbfe5b63a0cb365c9ec0089d7a425de68eeb979c00be014a",
+    "hash": "039a0a7b7cc74a576a6ff7f8b1832b95fb76751c2055b79af65f0002f0b5e136"
+  },
+  {
+    "seq": 13,
+    "id": "aud-13-42cd8f09",
+    "timestamp": "2026-11-14T17:37:21.458Z",
+    "actor": "UNIT_TEST",
+    "service": "svc-test",
+    "action": "VERIFY_CHAIN",
+    "resource": "TEST_RES",
+    "outcome": "SUCCESS",
+    "metadata": {},
+    "prevHash": "039a0a7b7cc74a576a6ff7f8b1832b95fb76751c2055b79af65f0002f0b5e136",
+    "hash": "edd08b98d278272641b61e0038046e9908232c3d0b9ababf6f6344713a053907"
+  },
+  {
+    "seq": 14,
+    "id": "aud-14-74a2b710",
+    "timestamp": "2026-11-14T17:42:26.463Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "7E94574B8F0ECA90"
+    },
+    "prevHash": "edd08b98d278272641b61e0038046e9908232c3d0b9ababf6f6344713a053907",
+    "hash": "2c25f6c939b5c7fccff149d31f99feaeee6a9ed6aa7f43ecabb9dbf9f7f2bd3a"
+  },
+  {
+    "seq": 15,
+    "id": "aud-15-ffe37ad1",
+    "timestamp": "2026-11-14T17:42:32.581Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36868
+    },
+    "prevHash": "2c25f6c939b5c7fccff149d31f99feaeee6a9ed6aa7f43ecabb9dbf9f7f2bd3a",
+    "hash": "261aa4849ea251a7cc4077fdb36cad72755720b29f6ea08299c3b55e134895e4"
+  },
+  {
+    "seq": 16,
+    "id": "aud-16-a4252f01",
+    "timestamp": "2026-11-14T17:47:44.887Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "CCDD40A08E5F9320"
+    },
+    "prevHash": "261aa4849ea251a7cc4077fdb36cad72755720b29f6ea08299c3b55e134895e4",
+    "hash": "de8df6b6cdd3acb1a2eb993b859664e5530b148e3deac1e1033685be63c42b9d"
+  },
+  {
+    "seq": 17,
+    "id": "aud-17-3b348e11",
+    "timestamp": "2026-11-14T17:47:45.761Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-ae1bce33",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "de8df6b6cdd3acb1a2eb993b859664e5530b148e3deac1e1033685be63c42b9d",
+    "hash": "ef509d8541ac9fe6724f0a76769be51e05ef801c5c3f65502aeda616f0fc41d7"
+  },
+  {
+    "seq": 18,
+    "id": "aud-18-5688fd38",
+    "timestamp": "2026-11-14T17:47:45.762Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "ef509d8541ac9fe6724f0a76769be51e05ef801c5c3f65502aeda616f0fc41d7",
+    "hash": "4edc683ed96dd919ff0001df8c73a0846d7e3d3d955077a58553ddc28a2a5143"
+  },
+  {
+    "seq": 19,
+    "id": "aud-19-32d8f013",
+    "timestamp": "2026-11-14T17:48:08.627Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "5FB969C5F7F83B91"
+    },
+    "prevHash": "4edc683ed96dd919ff0001df8c73a0846d7e3d3d955077a58553ddc28a2a5143",
+    "hash": "f9e1121567792d1374dc709b7349ebe7de6854d51dac2129a41010968b3aca0f"
+  },
+  {
+    "seq": 20,
+    "id": "aud-20-b0446c97",
+    "timestamp": "2026-11-14T17:48:09.104Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-fcf9d61f",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "f9e1121567792d1374dc709b7349ebe7de6854d51dac2129a41010968b3aca0f",
+    "hash": "f0108faeda9b79a4e22171d2101e9f1f56691cf7daeecf6d3c2f43f1530bec09"
+  },
+  {
+    "seq": 21,
+    "id": "aud-21-440c7a53",
+    "timestamp": "2026-11-14T17:48:09.105Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "f0108faeda9b79a4e22171d2101e9f1f56691cf7daeecf6d3c2f43f1530bec09",
+    "hash": "1a6b91477bb38586bf23cfd99e3cf01365c1e8a1daec72db58009c61a70412e4"
+  },
+  {
+    "seq": 22,
+    "id": "aud-22-ef9667ce",
+    "timestamp": "2026-11-14T17:48:14.108Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "3F2D5435041122A3"
+    },
+    "prevHash": "1a6b91477bb38586bf23cfd99e3cf01365c1e8a1daec72db58009c61a70412e4",
+    "hash": "9c4685d6040b14dbc99de3ef820b8996a35fb245eecf8ab6536d2238e7b96d08"
+  },
+  {
+    "seq": 23,
+    "id": "aud-23-c5cf92ac",
+    "timestamp": "2026-11-14T17:48:18.232Z",
+    "actor": "USER",
+    "service": "svc-reports",
+    "action": "REPORT_EXPORTED",
+    "resource": "DAILY_BRIEFING.pdf",
+    "outcome": "SUCCESS",
+    "metadata": {},
+    "prevHash": "9c4685d6040b14dbc99de3ef820b8996a35fb245eecf8ab6536d2238e7b96d08",
+    "hash": "a1324bd50afc740c48bae83cf18776f91d48fbf55240195fd212dfd5a013227c"
+  },
+  {
+    "seq": 24,
+    "id": "aud-24-adfc24aa",
+    "timestamp": "2026-11-14T17:48:18.397Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "IBOV",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-d963655f",
+      "thresholdPct": 0.01,
+      "direction": "BOTH"
+    },
+    "prevHash": "a1324bd50afc740c48bae83cf18776f91d48fbf55240195fd212dfd5a013227c",
+    "hash": "7b39ffd2cf08531c88d90ca7dcc68065f78f78319ccf8f1a6d4046334cd9624d"
+  },
+  {
+    "seq": 25,
+    "id": "aud-25-a4f70537",
+    "timestamp": "2026-11-14T17:48:18.398Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "IBOV",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 0.66,
+      "thresholdPct": 0.01
+    },
+    "prevHash": "7b39ffd2cf08531c88d90ca7dcc68065f78f78319ccf8f1a6d4046334cd9624d",
+    "hash": "77d0562bba90ee73846fc67c54a2cee859b9bed20e382f9bfa61bd720d7a75e8"
+  },
+  {
+    "seq": 26,
+    "id": "aud-26-9229968b",
+    "timestamp": "2026-11-14T17:48:18.415Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_DELETED",
+    "resource": "IBOV",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-d963655f"
+    },
+    "prevHash": "77d0562bba90ee73846fc67c54a2cee859b9bed20e382f9bfa61bd720d7a75e8",
+    "hash": "a091d1d62ed92a10fab73f6528bb806fa9c1bfb75ba068cb2f388f2cd7d1b2d7"
+  },
+  {
+    "seq": 27,
+    "id": "aud-27-829bc9a0",
+    "timestamp": "2026-11-14T17:53:43.269Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "3F9701AD2F21B05F"
+    },
+    "prevHash": "a091d1d62ed92a10fab73f6528bb806fa9c1bfb75ba068cb2f388f2cd7d1b2d7",
+    "hash": "3ce4816689c5d5fc2ebc5c227f86545a13673a59ed4c7a85501e282e82e41434"
+  },
+  {
+    "seq": 28,
+    "id": "aud-28-611c7a97",
+    "timestamp": "2026-11-14T17:53:52.384Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "3ce4816689c5d5fc2ebc5c227f86545a13673a59ed4c7a85501e282e82e41434",
+    "hash": "1bce522e21dcc5b7fa00830ab053f88688f3accdde7be7710be13ab76ab62059"
+  },
+  {
+    "seq": 29,
+    "id": "aud-29-67279f67",
+    "timestamp": "2026-11-14T17:57:18.694Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "E635BEE2A9AD52F1"
+    },
+    "prevHash": "1bce522e21dcc5b7fa00830ab053f88688f3accdde7be7710be13ab76ab62059",
+    "hash": "f88e8e1880d7790632e270852f3b04aa547728c21fe5bc2000ecce9752d368c7"
+  },
+  {
+    "seq": 30,
+    "id": "aud-30-fb80bd19",
+    "timestamp": "2026-11-14T17:57:19.317Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-2f20d880",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "f88e8e1880d7790632e270852f3b04aa547728c21fe5bc2000ecce9752d368c7",
+    "hash": "686ea3e5c2307a4672596a31ce7e87e8bf96282d0554644997ae0324c7b925ed"
+  },
+  {
+    "seq": 31,
+    "id": "aud-31-4e0d62c4",
+    "timestamp": "2026-11-14T17:57:19.317Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "686ea3e5c2307a4672596a31ce7e87e8bf96282d0554644997ae0324c7b925ed",
+    "hash": "5fc30a90333ee42a976ff232af2a1cd405a567b32dc28d915e3dc84de0492c80"
+  },
+  {
+    "seq": 32,
+    "id": "aud-32-54fb9eb5",
+    "timestamp": "2026-11-14T17:57:24.257Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "8D01B969E28E1A3B"
+    },
+    "prevHash": "5fc30a90333ee42a976ff232af2a1cd405a567b32dc28d915e3dc84de0492c80",
+    "hash": "7f51fdc81ffb158f6839b811fff8301d38ee4bf6bd403e65e508d1d41f9ca26e"
+  },
+  {
+    "seq": 33,
+    "id": "aud-33-97a7d371",
+    "timestamp": "2026-11-14T17:57:28.640Z",
+    "actor": "USER",
+    "service": "svc-crypto-kms",
+    "action": "AUDIT_INTEGRITY_VERIFIED",
+    "resource": "MERKLE_SHA256_CHAIN",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalEvents": 32,
+      "valid": true
+    },
+    "prevHash": "7f51fdc81ffb158f6839b811fff8301d38ee4bf6bd403e65e508d1d41f9ca26e",
+    "hash": "ae9bc14ceede741fbb4255e789d117c715f2a9eebd378fceb790962d4d3fa38b"
+  },
+  {
+    "seq": 34,
+    "id": "aud-34-a9f2209a",
+    "timestamp": "2026-11-14T17:57:28.650Z",
+    "actor": "USER",
+    "service": "svc-reports",
+    "action": "DATA_EXPORT_EXECUTED",
+    "resource": "TIMESERIES.csv",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "recordCount": 46,
+      "range": "1M",
+      "sha256": "baff59e8e56d24c0"
+    },
+    "prevHash": "ae9bc14ceede741fbb4255e789d117c715f2a9eebd378fceb790962d4d3fa38b",
+    "hash": "b6d51ff02dcb21390696eedc09c2440bfa88455831f5d02deff9b146bdaf00d1"
+  },
+  {
+    "seq": 35,
+    "id": "aud-35-4f2eedd9",
+    "timestamp": "2026-11-14T17:57:28.658Z",
+    "actor": "USER",
+    "service": "svc-reports",
+    "action": "REPORT_EXPORTED",
+    "resource": "CONSOLIDATED_BRAZIL_SWOT.pdf",
+    "outcome": "SUCCESS",
+    "metadata": {},
+    "prevHash": "b6d51ff02dcb21390696eedc09c2440bfa88455831f5d02deff9b146bdaf00d1",
+    "hash": "f484b143badeb475d4cbc0a1c53b683fb360bf428af904ca4ac765e403150890"
+  },
+  {
+    "seq": 36,
+    "id": "aud-36-ad0cc5df",
+    "timestamp": "2026-11-14T17:57:34.356Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "f484b143badeb475d4cbc0a1c53b683fb360bf428af904ca4ac765e403150890",
+    "hash": "3a73e58403b375362b876a2585a59d0753679f4a5a47bf6a7b178521a0a8582a"
+  },
+  {
+    "seq": 37,
+    "id": "aud-37-db3c00ab",
+    "timestamp": "2026-11-14T17:57:35.144Z",
+    "actor": "USER",
+    "service": "svc-reports",
+    "action": "DATA_EXPORT_EXECUTED",
+    "resource": "TIMESERIES.csv",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "recordCount": 46,
+      "range": "1M",
+      "sha256": "2a17d5e2b55ef51e"
+    },
+    "prevHash": "3a73e58403b375362b876a2585a59d0753679f4a5a47bf6a7b178521a0a8582a",
+    "hash": "a1dab50f1458058fe6b942df2ac353995f184281029b2a245fbfbfc0e678809a"
+  },
+  {
+    "seq": 38,
+    "id": "aud-38-34976c88",
+    "timestamp": "2026-11-14T17:57:35.148Z",
+    "actor": "USER",
+    "service": "svc-reports",
+    "action": "REPORT_EXPORTED",
+    "resource": "CONSOLIDATED_BRAZIL_SWOT.pdf",
+    "outcome": "SUCCESS",
+    "metadata": {},
+    "prevHash": "a1dab50f1458058fe6b942df2ac353995f184281029b2a245fbfbfc0e678809a",
+    "hash": "063b2688543d2c348de53924074f1a14031b159bd3e8d20d31d8f62528e95599"
+  },
+  {
+    "seq": 39,
+    "id": "aud-39-0e9a97e2",
+    "timestamp": "2026-11-14T17:57:57.014Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "36D0E5D3D190A97A"
+    },
+    "prevHash": "063b2688543d2c348de53924074f1a14031b159bd3e8d20d31d8f62528e95599",
+    "hash": "0b9ae43402842b6ec72aa606380e8469a757afe5022f4099b8b9116e0a5ee52d"
+  },
+  {
+    "seq": 40,
+    "id": "aud-40-6d7be8ef",
+    "timestamp": "2026-11-14T17:57:57.763Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-e6d2ddd7",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "0b9ae43402842b6ec72aa606380e8469a757afe5022f4099b8b9116e0a5ee52d",
+    "hash": "5e101af433ea0bba1667277ecbc821a22b87635719cf2dd645c33b286b626c4d"
+  },
+  {
+    "seq": 41,
+    "id": "aud-41-be1dc88b",
+    "timestamp": "2026-11-14T17:57:57.764Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "5e101af433ea0bba1667277ecbc821a22b87635719cf2dd645c33b286b626c4d",
+    "hash": "58edf2e3255542a138ff3c1615824c263cf166c471393837ebde0abd632174aa"
+  },
+  {
+    "seq": 42,
+    "id": "aud-42-ec5ee90d",
+    "timestamp": "2026-11-14T17:58:02.258Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "63FDA8652BBA485A"
+    },
+    "prevHash": "58edf2e3255542a138ff3c1615824c263cf166c471393837ebde0abd632174aa",
+    "hash": "7eb798f4a2c0cfb15165a14a8cf07c25881f224481716794dd9243b96d77e6d0"
+  },
+  {
+    "seq": 43,
+    "id": "aud-43-c3f9676a",
+    "timestamp": "2026-11-14T17:58:04.080Z",
+    "actor": "USER",
+    "service": "svc-reports",
+    "action": "REPORT_EXPORTED",
+    "resource": "CONSOLIDATED_BRAZIL_SWOT.pdf",
+    "outcome": "SUCCESS",
+    "metadata": {},
+    "prevHash": "7eb798f4a2c0cfb15165a14a8cf07c25881f224481716794dd9243b96d77e6d0",
+    "hash": "c9efb309d02d88c164285f2b11176a7318242a97ed26c582be76993e2cbf0132"
+  },
+  {
+    "seq": 44,
+    "id": "aud-44-5d7657cb",
+    "timestamp": "2026-11-14T18:01:04.413Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "713478B0F6CE9795"
+    },
+    "prevHash": "c9efb309d02d88c164285f2b11176a7318242a97ed26c582be76993e2cbf0132",
+    "hash": "6a9788a0be8f3065b0d169dfd782983069600cbae9bb5c14463f09d8a0caa314"
+  },
+  {
+    "seq": 45,
+    "id": "aud-45-a1ded9f1",
+    "timestamp": "2026-11-14T18:01:09.385Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "6a9788a0be8f3065b0d169dfd782983069600cbae9bb5c14463f09d8a0caa314",
+    "hash": "22c6ffe548678d5a124bab4afd12b98849ce26a74267bf9d79e242daeef3a4fe"
+  },
+  {
+    "seq": 46,
+    "id": "aud-46-aeaeeb2a",
+    "timestamp": "2026-11-14T18:03:20.327Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "76C94A7A0ACEAC55"
+    },
+    "prevHash": "22c6ffe548678d5a124bab4afd12b98849ce26a74267bf9d79e242daeef3a4fe",
+    "hash": "c45f9c67c31a35ddc140f2f305111dfd1163a179582767edbfb34e5dbcb628d7"
+  },
+  {
+    "seq": 47,
+    "id": "aud-47-06d122ad",
+    "timestamp": "2026-11-14T18:03:21.096Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-03bb3d6a",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "c45f9c67c31a35ddc140f2f305111dfd1163a179582767edbfb34e5dbcb628d7",
+    "hash": "2bb01e5b62fabb15050f96e7f3f6f9c6b78618f5abcdb9194f41b9e7c05f262a"
+  },
+  {
+    "seq": 48,
+    "id": "aud-48-8adc51b0",
+    "timestamp": "2026-11-14T18:03:21.097Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "2bb01e5b62fabb15050f96e7f3f6f9c6b78618f5abcdb9194f41b9e7c05f262a",
+    "hash": "75d91bc413cd58eeea3202447be931f34f7500c9c02c3d70bd8bfeaf4dcf6d1a"
+  },
+  {
+    "seq": 49,
+    "id": "aud-49-66e6f18f",
+    "timestamp": "2026-11-14T18:03:46.800Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "037843241E99CE6D"
+    },
+    "prevHash": "75d91bc413cd58eeea3202447be931f34f7500c9c02c3d70bd8bfeaf4dcf6d1a",
+    "hash": "02c8e23dd19e6e68cab36d4253b56a104e0cdc7cdadbb6d8e931d3280ffddc10"
+  },
+  {
+    "seq": 50,
+    "id": "aud-50-2c2b17b5",
+    "timestamp": "2026-11-14T18:03:47.388Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-391c2680",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "02c8e23dd19e6e68cab36d4253b56a104e0cdc7cdadbb6d8e931d3280ffddc10",
+    "hash": "a8c23cc9f2f23a99de1e89c502da0bebf128050e8cb2cd32051694e92feeee06"
+  },
+  {
+    "seq": 51,
+    "id": "aud-51-4afa5624",
+    "timestamp": "2026-11-14T18:03:47.389Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "a8c23cc9f2f23a99de1e89c502da0bebf128050e8cb2cd32051694e92feeee06",
+    "hash": "c4a926f725c737080abc144c1e629d526e9ea98b014913e1b3977b2701b384b4"
+  },
+  {
+    "seq": 52,
+    "id": "aud-52-968cce3f",
+    "timestamp": "2026-11-14T18:03:53.376Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "A9B2EDBEBA8F685E"
+    },
+    "prevHash": "c4a926f725c737080abc144c1e629d526e9ea98b014913e1b3977b2701b384b4",
+    "hash": "4963544a7506338a81230dc4e05dc4e492df2912075ef83b189787bc46220dc4"
+  },
+  {
+    "seq": 53,
+    "id": "aud-53-41ec62f4",
+    "timestamp": "2026-11-14T18:04:02.065Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "4963544a7506338a81230dc4e05dc4e492df2912075ef83b189787bc46220dc4",
+    "hash": "d0549451360d8390ceee1881ddc9f830a437757f7529c7cf7be83b015aaed6f3"
+  },
+  {
+    "seq": 54,
+    "id": "aud-54-9daa6454",
+    "timestamp": "2026-11-14T18:04:12.528Z",
+    "actor": "USER",
+    "service": "svc-reports",
+    "action": "VIEW_PDF_EXPORTED",
+    "resource": "SWOT_DASHBOARD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "viewTitle": "Dashboard SWOT Brasil — Forças, Fraquezas, Oportunidades e Ameaças",
+      "sha256": "4b3a80212b6e8965"
+    },
+    "prevHash": "d0549451360d8390ceee1881ddc9f830a437757f7529c7cf7be83b015aaed6f3",
+    "hash": "a274c69cd8a997cad02fa31a64bb8deb98ca2e3ecef0cbffc76326fca1b8821c"
+  },
+  {
+    "seq": 55,
+    "id": "aud-55-1e1ef768",
+    "timestamp": "2026-11-14T18:11:23.247Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "BE4D439CB0C58734"
+    },
+    "prevHash": "a274c69cd8a997cad02fa31a64bb8deb98ca2e3ecef0cbffc76326fca1b8821c",
+    "hash": "5e399d1d1180673b5f3f6cbd36392489690a1e0d0bdc6a3408a71e606fe17712"
+  },
+  {
+    "seq": 56,
+    "id": "aud-56-522ee7e6",
+    "timestamp": "2026-11-14T18:11:32.388Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "5e399d1d1180673b5f3f6cbd36392489690a1e0d0bdc6a3408a71e606fe17712",
+    "hash": "e5b6e91cd28de78fb91f78afccc2495d5921264cf5ff14386ef545e553c1404d"
+  },
+  {
+    "seq": 57,
+    "id": "aud-57-c60ebbce",
+    "timestamp": "2026-11-14T18:13:12.766Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "2B5FD2B7CB88A5F8"
+    },
+    "prevHash": "e5b6e91cd28de78fb91f78afccc2495d5921264cf5ff14386ef545e553c1404d",
+    "hash": "d2fea56edad3c7985f1485bcb3e8cb350afd47e9b1d6a238c75720307d930e39"
+  },
+  {
+    "seq": 58,
+    "id": "aud-58-c4732bf8",
+    "timestamp": "2026-11-14T18:13:13.376Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-90536960",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "d2fea56edad3c7985f1485bcb3e8cb350afd47e9b1d6a238c75720307d930e39",
+    "hash": "20a0a316f866e1680f8281046dbd05ca444868fc15cfa7e86c697f277f1da861"
+  },
+  {
+    "seq": 59,
+    "id": "aud-59-0ce9f3db",
+    "timestamp": "2026-11-14T18:13:13.377Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "20a0a316f866e1680f8281046dbd05ca444868fc15cfa7e86c697f277f1da861",
+    "hash": "c89fbfca7a790d6fb296b25f43baa4e63ec8d8e8d1dd99e6f1c244abbf12c443"
+  },
+  {
+    "seq": 60,
+    "id": "aud-60-b7555c11",
+    "timestamp": "2026-11-14T18:17:14.322Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "B717E9C7B45CDD69"
+    },
+    "prevHash": "c89fbfca7a790d6fb296b25f43baa4e63ec8d8e8d1dd99e6f1c244abbf12c443",
+    "hash": "65917d0256ee816a9a375170bc67c347d005b5d38fd29f8965efdf1e08166b10"
+  },
+  {
+    "seq": 61,
+    "id": "aud-61-94005ac5",
+    "timestamp": "2026-11-14T18:17:20.582Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "65917d0256ee816a9a375170bc67c347d005b5d38fd29f8965efdf1e08166b10",
+    "hash": "57efb7d3e8a4794df03d3b624e1e073357ac5323a22dc9e412430870eee8bad0"
+  },
+  {
+    "seq": 62,
+    "id": "aud-62-99da173c",
+    "timestamp": "2026-11-14T18:20:15.745Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "BDF22FBBB4AAE74E"
+    },
+    "prevHash": "57efb7d3e8a4794df03d3b624e1e073357ac5323a22dc9e412430870eee8bad0",
+    "hash": "7289237468b9f5ec814dd6c2e251cde18f682e6ced6c46d1bb66a44d8824ed17"
+  },
+  {
+    "seq": 63,
+    "id": "aud-63-177ef591",
+    "timestamp": "2026-11-14T18:20:16.711Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-b0fac396",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "7289237468b9f5ec814dd6c2e251cde18f682e6ced6c46d1bb66a44d8824ed17",
+    "hash": "e173d0000a1536b7668426a4c0e0a7ba7bac095fce92fa6fcbe6d4a820f4396e"
+  },
+  {
+    "seq": 64,
+    "id": "aud-64-9cc6cfdd",
+    "timestamp": "2026-11-14T18:20:16.712Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "e173d0000a1536b7668426a4c0e0a7ba7bac095fce92fa6fcbe6d4a820f4396e",
+    "hash": "d6f05890e2f77ad2df1b1e920aa77ef8d9a0497c792bf37432da0e8411d55de7"
+  },
+  {
+    "seq": 65,
+    "id": "aud-65-04cc79a7",
+    "timestamp": "2026-11-14T18:20:17.441Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-31750b2f",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Briefing Automático Sistema",
+      "reportType": "DAILY_BRIEFING",
+      "deliveryChannel": "SYSTEM",
+      "cadence": "INTERVAL_MINUTES",
+      "nextRunAt": "2026-11-14T18:35:17.440Z"
+    },
+    "prevHash": "d6f05890e2f77ad2df1b1e920aa77ef8d9a0497c792bf37432da0e8411d55de7",
+    "hash": "bac002b59de16bfc6c21bdf59b30b805da501145b0bee4245379b755b1705ece"
+  },
+  {
+    "seq": 66,
+    "id": "aud-66-4029778c",
+    "timestamp": "2026-11-14T18:20:17.666Z",
+    "actor": "SCHEDULER_DAEMON",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "DAILY_BRIEFING:dlv-608f3047d3",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "scheduleId": "sch-31750b2f",
+      "channel": "SYSTEM",
+      "emailStatus": "NOT_APPLICABLE",
+      "systemStatus": "STORED",
+      "sha256": "ce2e3a71dadf0322"
+    },
+    "prevHash": "bac002b59de16bfc6c21bdf59b30b805da501145b0bee4245379b755b1705ece",
+    "hash": "e91992bd5245af86a232c663ca5d00161ed5b03ff440a151e900b27dbf7bf369"
+  },
+  {
+    "seq": 67,
+    "id": "aud-67-4834d5d9",
+    "timestamp": "2026-11-14T18:20:17.670Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-bc871486",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Envio Email Sem SMTP",
+      "reportType": "FX_ANALYSIS",
+      "deliveryChannel": "EMAIL",
+      "cadence": "DAILY",
+      "nextRunAt": "2026-11-15T12:00:00.000Z"
+    },
+    "prevHash": "e91992bd5245af86a232c663ca5d00161ed5b03ff440a151e900b27dbf7bf369",
+    "hash": "c61c12d38a2adc04f8b1532304ec0cbb9c9bb3078863ab80a2e2e9738c1920cf"
+  },
+  {
+    "seq": 68,
+    "id": "aud-68-0b777873",
+    "timestamp": "2026-11-14T18:20:17.880Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "FX_ANALYSIS:dlv-8f3298d2b4",
+    "outcome": "ERROR",
+    "metadata": {
+      "scheduleId": "sch-bc871486",
+      "channel": "EMAIL",
+      "emailStatus": "NOT_CONFIGURED",
+      "systemStatus": "NOT_APPLICABLE",
+      "sha256": "37d466aa4e81e030"
+    },
+    "prevHash": "c61c12d38a2adc04f8b1532304ec0cbb9c9bb3078863ab80a2e2e9738c1920cf",
+    "hash": "ddb874f4d7d5fabb5e0e6bdea10a52c944012dc87b9f9d1e79b2a84c9a1744ec"
+  },
+  {
+    "seq": 69,
+    "id": "aud-69-a4aec3f5",
+    "timestamp": "2026-11-14T18:20:22.866Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "D20FE6CADFFDD3EE"
+    },
+    "prevHash": "ddb874f4d7d5fabb5e0e6bdea10a52c944012dc87b9f9d1e79b2a84c9a1744ec",
+    "hash": "46004b96e2b3f2041730924d027c88d90e7715dcdbe9709e9564250e5470e4c8"
+  },
+  {
+    "seq": 70,
+    "id": "aud-70-8943383d",
+    "timestamp": "2026-11-14T18:20:26.899Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-1d94db3e",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Probe Executivo SWOT Diario",
+      "reportType": "CONSOLIDATED_BRAZIL_SWOT",
+      "deliveryChannel": "SYSTEM",
+      "cadence": "DAILY",
+      "nextRunAt": "2026-11-15T11:30:00.000Z"
+    },
+    "prevHash": "46004b96e2b3f2041730924d027c88d90e7715dcdbe9709e9564250e5470e4c8",
+    "hash": "375f12c82cc95593e0397e1a9077337250521c4936be9e62e596c2151951544f"
+  },
+  {
+    "seq": 71,
+    "id": "aud-71-ef2348a2",
+    "timestamp": "2026-11-14T18:20:27.327Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "CONSOLIDATED_BRAZIL_SWOT:dlv-9a3df07f85",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "scheduleId": "sch-1d94db3e",
+      "channel": "SYSTEM",
+      "emailStatus": "NOT_APPLICABLE",
+      "systemStatus": "STORED",
+      "sha256": "0fd6b235789d98c1"
+    },
+    "prevHash": "375f12c82cc95593e0397e1a9077337250521c4936be9e62e596c2151951544f",
+    "hash": "091f7f4b8b6795aa21fe09f6aa5fff009c92d6b80891cf039e0ce44ba187168a"
+  },
+  {
+    "seq": 72,
+    "id": "aud-72-c65ccc9b",
+    "timestamp": "2026-11-14T18:20:27.347Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_DELETED",
+    "resource": "sch-1d94db3e",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Probe Executivo SWOT Diario"
+    },
+    "prevHash": "091f7f4b8b6795aa21fe09f6aa5fff009c92d6b80891cf039e0ce44ba187168a",
+    "hash": "cfbaaf6aa13c63076a15008b02b39d8f3cf0d2ff59964adf8509106e3a47ba98"
+  },
+  {
+    "seq": 73,
+    "id": "aud-73-8f7ff369",
+    "timestamp": "2026-11-14T18:23:04.591Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "8666C7D26AA613C8"
+    },
+    "prevHash": "cfbaaf6aa13c63076a15008b02b39d8f3cf0d2ff59964adf8509106e3a47ba98",
+    "hash": "8941deb5e440ac91e693792e666b97aa07aa2268522ce4d3e0451438ace0beb0"
+  },
+  {
+    "seq": 74,
+    "id": "aud-74-3f23fd94",
+    "timestamp": "2026-11-14T18:23:10.023Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "8941deb5e440ac91e693792e666b97aa07aa2268522ce4d3e0451438ace0beb0",
+    "hash": "38a89982cff8636177c67fa6ad09df00597d79017e14ca0a8888ede1e40f17a0"
+  },
+  {
+    "seq": 75,
+    "id": "aud-75-06520478",
+    "timestamp": "2026-11-14T18:31:06.980Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "840D2810EB4E5053"
+    },
+    "prevHash": "38a89982cff8636177c67fa6ad09df00597d79017e14ca0a8888ede1e40f17a0",
+    "hash": "4b57689c6f0dbc609014869bceafe489d005de883597105ba23a075f386f0220"
+  },
+  {
+    "seq": 76,
+    "id": "aud-76-2d2d8e13",
+    "timestamp": "2026-11-14T18:31:08.197Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-d0a86f00",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "4b57689c6f0dbc609014869bceafe489d005de883597105ba23a075f386f0220",
+    "hash": "b0a0dae2ad0b2d4429a1a0a1841a35d72e6c12ecd563c04b1713ddfa06627b7e"
+  },
+  {
+    "seq": 77,
+    "id": "aud-77-e0b80f31",
+    "timestamp": "2026-11-14T18:31:08.198Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "b0a0dae2ad0b2d4429a1a0a1841a35d72e6c12ecd563c04b1713ddfa06627b7e",
+    "hash": "5c46a94512ce401de305ec490c2450ef396d8bb09cb92aef8f85cd0d44b767ab"
+  },
+  {
+    "seq": 78,
+    "id": "aud-78-ca499b08",
+    "timestamp": "2026-11-14T18:31:09.069Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-97dc1558",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Briefing Automático Sistema",
+      "reportType": "DAILY_BRIEFING",
+      "deliveryChannel": "SYSTEM",
+      "cadence": "INTERVAL_MINUTES",
+      "nextRunAt": "2026-11-14T18:46:09.069Z"
+    },
+    "prevHash": "5c46a94512ce401de305ec490c2450ef396d8bb09cb92aef8f85cd0d44b767ab",
+    "hash": "9ea7c7d3f854c28a2d8064e16ce2266c394a6d9ca7f9d19ab21303e534957732"
+  },
+  {
+    "seq": 79,
+    "id": "aud-79-f440690b",
+    "timestamp": "2026-11-14T18:31:09.329Z",
+    "actor": "SCHEDULER_DAEMON",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "DAILY_BRIEFING:dlv-537853ecbf",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "scheduleId": "sch-97dc1558",
+      "channel": "SYSTEM",
+      "emailStatus": "NOT_APPLICABLE",
+      "systemStatus": "STORED",
+      "sha256": "2e1f6c9cc25fad6c"
+    },
+    "prevHash": "9ea7c7d3f854c28a2d8064e16ce2266c394a6d9ca7f9d19ab21303e534957732",
+    "hash": "d071fed631787a532191b2e0011a5da27c1e4ab75a4ce9fed0e0640432916c97"
+  },
+  {
+    "seq": 80,
+    "id": "aud-80-4ed42534",
+    "timestamp": "2026-11-14T18:31:09.335Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-6a607f3f",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Envio Email Sem SMTP",
+      "reportType": "FX_ANALYSIS",
+      "deliveryChannel": "EMAIL",
+      "cadence": "DAILY",
+      "nextRunAt": "2026-11-15T12:00:00.000Z"
+    },
+    "prevHash": "d071fed631787a532191b2e0011a5da27c1e4ab75a4ce9fed0e0640432916c97",
+    "hash": "70d6ad4ef8c23cb4ff5fbf7810ec026fc0f12a3d8ed11afe703f22975193b318"
+  },
+  {
+    "seq": 81,
+    "id": "aud-81-17aea4c6",
+    "timestamp": "2026-11-14T18:31:09.705Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "FX_ANALYSIS:dlv-b662118b6d",
+    "outcome": "ERROR",
+    "metadata": {
+      "scheduleId": "sch-6a607f3f",
+      "channel": "EMAIL",
+      "emailStatus": "NOT_CONFIGURED",
+      "systemStatus": "NOT_APPLICABLE",
+      "sha256": "b38835fb4b5473c9"
+    },
+    "prevHash": "70d6ad4ef8c23cb4ff5fbf7810ec026fc0f12a3d8ed11afe703f22975193b318",
+    "hash": "9678925a9a6ae9637b27c614c78f93a6c5625fc955e40c11903562a2e00b3d15"
+  },
+  {
+    "seq": 82,
+    "id": "aud-82-a63698ba",
+    "timestamp": "2026-11-14T18:31:12.638Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "47676DDA721986F5"
+    },
+    "prevHash": "9678925a9a6ae9637b27c614c78f93a6c5625fc955e40c11903562a2e00b3d15",
+    "hash": "9d0c8aea2605c13b7ac3e23d8ef9a0dbed9692802413319054dc53c9a6653ae8"
+  },
+  {
+    "seq": 83,
+    "id": "aud-83-86cc1a00",
+    "timestamp": "2026-11-14T18:31:22.040Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "9d0c8aea2605c13b7ac3e23d8ef9a0dbed9692802413319054dc53c9a6653ae8",
+    "hash": "79b61b6b75249cb4694667d73e78ab7b8ea52f51bee5b95bcf14d7c96c2f63b3"
+  },
+  {
+    "seq": 84,
+    "id": "aud-84-72e379a4",
+    "timestamp": "2026-11-14T18:31:22.799Z",
+    "actor": "SYSTEM",
+    "service": "svc-quant",
+    "action": "EM_BENCHMARK_SYNCED",
+    "resource": "FMI_WEO_YAHOO_EM",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "countries": 8,
+      "datasetTag": "WEO:2025-04",
+      "yearsCount": 12
+    },
+    "prevHash": "79b61b6b75249cb4694667d73e78ab7b8ea52f51bee5b95bcf14d7c96c2f63b3",
+    "hash": "7478787a84cff7ea2da3d4fee43149cd1db3209e7e4d9519ffdac8792548e000"
+  },
+  {
+    "seq": 85,
+    "id": "aud-85-242cb3af",
+    "timestamp": "2026-11-14T18:32:23.531Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "42E447D7205A7FDF"
+    },
+    "prevHash": "7478787a84cff7ea2da3d4fee43149cd1db3209e7e4d9519ffdac8792548e000",
+    "hash": "dd076ec128153c5f09519c34b81d198b673fb90b2f0cb66f1f5ba8989779562e"
+  },
+  {
+    "seq": 86,
+    "id": "aud-86-44d4c908",
+    "timestamp": "2026-11-14T18:32:32.711Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "dd076ec128153c5f09519c34b81d198b673fb90b2f0cb66f1f5ba8989779562e",
+    "hash": "43ab51450735f7c4227f6a7a83efffae0705e577838254ec74a1171a5957f378"
+  },
+  {
+    "seq": 87,
+    "id": "aud-87-3077e163",
+    "timestamp": "2026-11-14T18:35:33.296Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "1A9BD5EC9F6CEFAB"
+    },
+    "prevHash": "43ab51450735f7c4227f6a7a83efffae0705e577838254ec74a1171a5957f378",
+    "hash": "45922274d3cbbfcf10a99480c93e1e36645193c43c11484632b3ceb0fe5de8e0"
+  },
+  {
+    "seq": 88,
+    "id": "aud-88-08a548d7",
+    "timestamp": "2026-11-14T18:35:34.170Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-24af8775",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "45922274d3cbbfcf10a99480c93e1e36645193c43c11484632b3ceb0fe5de8e0",
+    "hash": "ff4ab5e22de97ba30c45f9dd46c38f97ae0798f9e78731d03c1cb654b25bc165"
+  },
+  {
+    "seq": 89,
+    "id": "aud-89-96065de8",
+    "timestamp": "2026-11-14T18:35:34.171Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "ff4ab5e22de97ba30c45f9dd46c38f97ae0798f9e78731d03c1cb654b25bc165",
+    "hash": "83e33a209f253686323029b9b28658f2e71d79a45c3faacb0feb9068f2a56e0f"
+  },
+  {
+    "seq": 90,
+    "id": "aud-90-11875ec9",
+    "timestamp": "2026-11-14T18:35:34.862Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-00d1fa0b",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Briefing Automático Sistema",
+      "reportType": "DAILY_BRIEFING",
+      "deliveryChannel": "SYSTEM",
+      "cadence": "INTERVAL_MINUTES",
+      "nextRunAt": "2026-11-14T18:50:34.862Z"
+    },
+    "prevHash": "83e33a209f253686323029b9b28658f2e71d79a45c3faacb0feb9068f2a56e0f",
+    "hash": "d681aa1ffdb344058b7921b8c212a6ea0f222cf2f431acee4a4b23ce1e7b2bcf"
+  },
+  {
+    "seq": 91,
+    "id": "aud-91-b9a9b634",
+    "timestamp": "2026-11-14T18:35:35.080Z",
+    "actor": "SCHEDULER_DAEMON",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "DAILY_BRIEFING:dlv-fc00634a0a",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "scheduleId": "sch-00d1fa0b",
+      "channel": "SYSTEM",
+      "emailStatus": "NOT_APPLICABLE",
+      "systemStatus": "STORED",
+      "sha256": "64abfe844594128e"
+    },
+    "prevHash": "d681aa1ffdb344058b7921b8c212a6ea0f222cf2f431acee4a4b23ce1e7b2bcf",
+    "hash": "db4d9f678d45dbff009168e360160503a59eb16d9f2ed9e0ddaafc21c3677a87"
+  },
+  {
+    "seq": 92,
+    "id": "aud-92-4bac56a8",
+    "timestamp": "2026-11-14T18:35:35.085Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-2fd0bc09",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Envio Email Sem SMTP",
+      "reportType": "FX_ANALYSIS",
+      "deliveryChannel": "EMAIL",
+      "cadence": "DAILY",
+      "nextRunAt": "2026-11-15T12:00:00.000Z"
+    },
+    "prevHash": "db4d9f678d45dbff009168e360160503a59eb16d9f2ed9e0ddaafc21c3677a87",
+    "hash": "84c42691186ae0b7aef5bb66fbb6bd13a4ee519154d654ef68e3dc2ca7895a86"
+  },
+  {
+    "seq": 93,
+    "id": "aud-93-8a7b0835",
+    "timestamp": "2026-11-14T18:35:35.306Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "FX_ANALYSIS:dlv-ff566c8893",
+    "outcome": "ERROR",
+    "metadata": {
+      "scheduleId": "sch-2fd0bc09",
+      "channel": "EMAIL",
+      "emailStatus": "NOT_CONFIGURED",
+      "systemStatus": "NOT_APPLICABLE",
+      "sha256": "807f5a9649f5125e"
+    },
+    "prevHash": "84c42691186ae0b7aef5bb66fbb6bd13a4ee519154d654ef68e3dc2ca7895a86",
+    "hash": "7ec093df8b39a3c16b2236a09514e54c0986b9d7da924e7f7653a332f9812410"
+  },
+  {
+    "seq": 94,
+    "id": "aud-94-e6cc7878",
+    "timestamp": "2026-11-14T18:35:40.183Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "7E9895BAF93DFABE"
+    },
+    "prevHash": "7ec093df8b39a3c16b2236a09514e54c0986b9d7da924e7f7653a332f9812410",
+    "hash": "1d692f220daae3117c5b3ecf1a56f8d170afcbe72153ed9a5bf8e7540f98c04f"
+  },
+  {
+    "seq": 95,
+    "id": "aud-95-30a3c5fb",
+    "timestamp": "2026-11-14T18:35:48.793Z",
+    "actor": "ADMIN",
+    "service": "svc-data-ingestion",
+    "action": "API_QUOTA_UPDATED",
+    "resource": "bcb-sgs",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "monthlyQuota": 26000
+    },
+    "prevHash": "1d692f220daae3117c5b3ecf1a56f8d170afcbe72153ed9a5bf8e7540f98c04f",
+    "hash": "0a1b601e3ff655306ff74841be1404a722a2b6247964d590fe581e0a63e66817"
+  },
+  {
+    "seq": 96,
+    "id": "aud-96-571b4235",
+    "timestamp": "2026-11-14T18:35:48.821Z",
+    "actor": "ADMIN",
+    "service": "svc-data-ingestion",
+    "action": "API_QUOTA_UPDATED",
+    "resource": "bcb-sgs",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "monthlyQuota": 25000
+    },
+    "prevHash": "0a1b601e3ff655306ff74841be1404a722a2b6247964d590fe581e0a63e66817",
+    "hash": "c5654880d49e3345615e0c74e47abfb752c2d38676534675f23249820d87163d"
+  },
+  {
+    "seq": 97,
+    "id": "aud-97-711fd56a",
+    "timestamp": "2026-11-14T18:38:41.350Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "B0E1DD593CF90163"
+    },
+    "prevHash": "c5654880d49e3345615e0c74e47abfb752c2d38676534675f23249820d87163d",
+    "hash": "648f6c8cfccc947bbbd9f3cbef8dcddf325f44cf8ef5cbed0771554f08322e99"
+  },
+  {
+    "seq": 98,
+    "id": "aud-98-124b5bed",
+    "timestamp": "2026-11-14T18:38:50.419Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "648f6c8cfccc947bbbd9f3cbef8dcddf325f44cf8ef5cbed0771554f08322e99",
+    "hash": "94958dd9b4189b1c0d40d3f98f8029d07236b708c5611672c126aed466d3ce05"
+  },
+  {
+    "seq": 99,
+    "id": "aud-99-24ba315e",
+    "timestamp": "2026-11-14T18:42:34.660Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "84223019ABFE566B"
+    },
+    "prevHash": "94958dd9b4189b1c0d40d3f98f8029d07236b708c5611672c126aed466d3ce05",
+    "hash": "4c768bd9ef67e72c9a89610b2b5b1fc342100e749243f701b1e4206e48987789"
+  },
+  {
+    "seq": 100,
+    "id": "aud-100-77b5450e",
+    "timestamp": "2026-11-14T18:42:35.437Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-08d008dd",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "4c768bd9ef67e72c9a89610b2b5b1fc342100e749243f701b1e4206e48987789",
+    "hash": "80cd818aa8ad8da2d475d644bbde10261937f55c0d64f4e3bd7b04013d1c124e"
+  },
+  {
+    "seq": 101,
+    "id": "aud-101-0f2a4111",
+    "timestamp": "2026-11-14T18:42:35.438Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "80cd818aa8ad8da2d475d644bbde10261937f55c0d64f4e3bd7b04013d1c124e",
+    "hash": "8f810f3d5e165f5430bb58338d40188fb5d6af267a1d9d7df18de53f53537917"
+  },
+  {
+    "seq": 102,
+    "id": "aud-102-84110b3b",
+    "timestamp": "2026-11-14T18:42:36.125Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-ec8d5f18",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Briefing Automático Sistema",
+      "reportType": "DAILY_BRIEFING",
+      "deliveryChannel": "SYSTEM",
+      "cadence": "INTERVAL_MINUTES",
+      "nextRunAt": "2026-11-14T18:57:36.125Z"
+    },
+    "prevHash": "8f810f3d5e165f5430bb58338d40188fb5d6af267a1d9d7df18de53f53537917",
+    "hash": "77e50cbd4ce29a9d583e39e9dfe3c04ba4428eacf69360934bbf3a7f370184a6"
+  },
+  {
+    "seq": 103,
+    "id": "aud-103-10778bb7",
+    "timestamp": "2026-11-14T18:42:36.338Z",
+    "actor": "SCHEDULER_DAEMON",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "DAILY_BRIEFING:dlv-9c0e51bed7",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "scheduleId": "sch-ec8d5f18",
+      "channel": "SYSTEM",
+      "emailStatus": "NOT_APPLICABLE",
+      "systemStatus": "STORED",
+      "sha256": "220f2105f0bf066b"
+    },
+    "prevHash": "77e50cbd4ce29a9d583e39e9dfe3c04ba4428eacf69360934bbf3a7f370184a6",
+    "hash": "1dba7e2c2b4734dfb4a961e0148b4d3c33501ef60ea915afad81e9e8f2ee029f"
+  },
+  {
+    "seq": 104,
+    "id": "aud-104-ab5c6708",
+    "timestamp": "2026-11-14T18:42:36.343Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-109967aa",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Envio Email Sem SMTP",
+      "reportType": "FX_ANALYSIS",
+      "deliveryChannel": "EMAIL",
+      "cadence": "DAILY",
+      "nextRunAt": "2026-11-15T12:00:00.000Z"
+    },
+    "prevHash": "1dba7e2c2b4734dfb4a961e0148b4d3c33501ef60ea915afad81e9e8f2ee029f",
+    "hash": "6802c6050958f87bb167c83b6849d30d72cd412fee543642c9ac4e8775231972"
+  },
+  {
+    "seq": 105,
+    "id": "aud-105-9e469e48",
+    "timestamp": "2026-11-14T18:42:36.554Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "FX_ANALYSIS:dlv-e8e484f298",
+    "outcome": "ERROR",
+    "metadata": {
+      "scheduleId": "sch-109967aa",
+      "channel": "EMAIL",
+      "emailStatus": "NOT_CONFIGURED",
+      "systemStatus": "NOT_APPLICABLE",
+      "sha256": "42e82ddfa2521233"
+    },
+    "prevHash": "6802c6050958f87bb167c83b6849d30d72cd412fee543642c9ac4e8775231972",
+    "hash": "4c5d6750b5770493948830d2d26c6e5835e88f26c97fada41aa34337770de6b2"
+  },
+  {
+    "seq": 106,
+    "id": "aud-106-f3ea2dae",
+    "timestamp": "2026-11-14T18:42:55.460Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "63DBD7A311BDEA39"
+    },
+    "prevHash": "4c5d6750b5770493948830d2d26c6e5835e88f26c97fada41aa34337770de6b2",
+    "hash": "ccc24ba5b571f4ab5c7c47971bcad27542c4bbcefbc40b2836668fccacec823d"
+  },
+  {
+    "seq": 107,
+    "id": "aud-107-a59d3629",
+    "timestamp": "2026-11-14T18:42:56.163Z",
+    "actor": "USER",
+    "service": "svc-alerts",
+    "action": "ALERT_RULE_CREATED",
+    "resource": "USD_BRL_PTAX",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "ruleId": "alr-rule-b116a479",
+      "thresholdPct": 1.5,
+      "direction": "UP"
+    },
+    "prevHash": "ccc24ba5b571f4ab5c7c47971bcad27542c4bbcefbc40b2836668fccacec823d",
+    "hash": "81e83e7e479d4203efd02ef8a4eabe0e2b12c71abd71607eeb2f9c87f4ed8c2a"
+  },
+  {
+    "seq": 108,
+    "id": "aud-108-2b36f311",
+    "timestamp": "2026-11-14T18:42:56.165Z",
+    "actor": "ENGINE",
+    "service": "svc-alerts",
+    "action": "ALERT_TRIGGERED",
+    "resource": "PTAX-USD",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "observedPctChange": 2.63,
+      "thresholdPct": 1.5
+    },
+    "prevHash": "81e83e7e479d4203efd02ef8a4eabe0e2b12c71abd71607eeb2f9c87f4ed8c2a",
+    "hash": "07b9917f700e3d00eaa95f060e58558e3531cb1e463f9fe63befbcffd789875c"
+  },
+  {
+    "seq": 109,
+    "id": "aud-109-020e3f7d",
+    "timestamp": "2026-11-14T18:42:56.910Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-978bd943",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Briefing Automático Sistema",
+      "reportType": "DAILY_BRIEFING",
+      "deliveryChannel": "SYSTEM",
+      "cadence": "INTERVAL_MINUTES",
+      "nextRunAt": "2026-11-14T18:57:56.910Z"
+    },
+    "prevHash": "07b9917f700e3d00eaa95f060e58558e3531cb1e463f9fe63befbcffd789875c",
+    "hash": "5a2bf04d9738a14770bb0dd7fa11fe20ba32fc74c04b6b4b057c6c616af7fd3c"
+  },
+  {
+    "seq": 110,
+    "id": "aud-110-380938a9",
+    "timestamp": "2026-11-14T18:42:57.162Z",
+    "actor": "SCHEDULER_DAEMON",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "DAILY_BRIEFING:dlv-6346396b50",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "scheduleId": "sch-978bd943",
+      "channel": "SYSTEM",
+      "emailStatus": "NOT_APPLICABLE",
+      "systemStatus": "STORED",
+      "sha256": "92767b8eaee6124f"
+    },
+    "prevHash": "5a2bf04d9738a14770bb0dd7fa11fe20ba32fc74c04b6b4b057c6c616af7fd3c",
+    "hash": "f0faf1d0559e4f5ccadff11c68d9f331c7099d7bad2cfbe03f419b73478dcc41"
+  },
+  {
+    "seq": 111,
+    "id": "aud-111-e6ad4fc7",
+    "timestamp": "2026-11-14T18:42:57.168Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULE_CREATED",
+    "resource": "sch-f91161d8",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "name": "Envio Email Sem SMTP",
+      "reportType": "FX_ANALYSIS",
+      "deliveryChannel": "EMAIL",
+      "cadence": "DAILY",
+      "nextRunAt": "2026-11-15T12:00:00.000Z"
+    },
+    "prevHash": "f0faf1d0559e4f5ccadff11c68d9f331c7099d7bad2cfbe03f419b73478dcc41",
+    "hash": "d950600a92485562fb91bdc874034547504c01ed24a68a95bc6248ee6ec99a7b"
+  },
+  {
+    "seq": 112,
+    "id": "aud-112-dd521d5f",
+    "timestamp": "2026-11-14T18:42:57.387Z",
+    "actor": "USER",
+    "service": "svc-scheduler",
+    "action": "SCHEDULED_REPORT_DISPATCHED",
+    "resource": "FX_ANALYSIS:dlv-c8e27858d7",
+    "outcome": "ERROR",
+    "metadata": {
+      "scheduleId": "sch-f91161d8",
+      "channel": "EMAIL",
+      "emailStatus": "NOT_CONFIGURED",
+      "systemStatus": "NOT_APPLICABLE",
+      "sha256": "b54c45fe0dea294c"
+    },
+    "prevHash": "d950600a92485562fb91bdc874034547504c01ed24a68a95bc6248ee6ec99a7b",
+    "hash": "8508bf7c67e8af86f9d9836cf450a3a0aacf15206355267a8dc4b43d32702a22"
+  },
+  {
+    "seq": 113,
+    "id": "aud-113-8096e83e",
+    "timestamp": "2026-11-14T18:43:06.067Z",
+    "actor": "SYSTEM",
+    "service": "svc-crypto-kms",
+    "action": "KMS_INITIALIZED",
+    "resource": "ECDH-P256+Ed25519",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "keyFingerprint": "D7FE75B62729E35D"
+    },
+    "prevHash": "8508bf7c67e8af86f9d9836cf450a3a0aacf15206355267a8dc4b43d32702a22",
+    "hash": "8f9044ffa85901c2564537b5f82298a927b7a74f56af9ccf02f9ed127114d0af"
+  },
+  {
+    "seq": 114,
+    "id": "aud-114-6236cc59",
+    "timestamp": "2026-11-14T18:43:14.598Z",
+    "actor": "SCHEDULER",
+    "service": "svc-data-ingestion",
+    "action": "FULL_MARKET_MACRO_SYNC",
+    "resource": "ALL_PROVIDERS",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "totalObservations": 36867,
+      "alertsTriggered": 0
+    },
+    "prevHash": "8f9044ffa85901c2564537b5f82298a927b7a74f56af9ccf02f9ed127114d0af",
+    "hash": "e17ffb211e80027f8032f275e2006b298179920b07c50724d5c24d2ac0b2ee71"
+  },
+  {
+    "seq": 115,
+    "id": "aud-115-b0d787c6",
+    "timestamp": "2026-11-14T18:43:15.366Z",
+    "actor": "USER",
+    "service": "svc-reports",
+    "action": "REPORT_EXPORTED",
+    "resource": "DAILY_BRIEFING.pdf",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "userIdentification": "Analista Mesa Macro 07"
+    },
+    "prevHash": "e17ffb211e80027f8032f275e2006b298179920b07c50724d5c24d2ac0b2ee71",
+    "hash": "7ddab6c0232f74cf3fdfa3eb0014f017ea246247e4fc712db9b43141527d5098"
+  },
+  {
+    "seq": 116,
+    "id": "aud-116-0570a9bd",
+    "timestamp": "2026-11-14T18:43:15.692Z",
+    "actor": "USER",
+    "service": "svc-reports",
+    "action": "REPORT_EXPORTED",
+    "resource": "DAILY_BRIEFING.html",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "userIdentification": "Analista Mesa Macro 07"
+    },
+    "prevHash": "7ddab6c0232f74cf3fdfa3eb0014f017ea246247e4fc712db9b43141527d5098",
+    "hash": "e86f45d687d2cb4c3e82d92f46e2ca609ea291c3dc4b24166a164240fada7492"
+  },
+  {
+    "seq": 117,
+    "id": "aud-117-9c116afa",
+    "timestamp": "2026-11-14T18:43:16.074Z",
+    "actor": "USER",
+    "service": "svc-reports",
+    "action": "VIEW_PDF_EXPORTED",
+    "resource": "EXECUTIVE",
+    "outcome": "SUCCESS",
+    "metadata": {
+      "viewTitle": "Visao Executiva",
+      "userIdentification": "Diretor Risco #99",
+      "sha256": "b7730a9cd95a0c45"
+    },
+    "prevHash": "e86f45d687d2cb4c3e82d92f46e2ca609ea291c3dc4b24166a164240fada7492",
+    "hash": "22cd0f17e53433be05a5ac50774ddd1526f89bea435b8835603fd1d9f2a8a2fa"
+  }
+]

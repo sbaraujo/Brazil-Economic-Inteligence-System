@@ -1,0 +1,1964 @@
+# SYGMA BRAZIL ECONOMIC INTELLIGENCE AI
+# MASTER DEVELOPMENT PROMPT — COMPLETE INSTITUTIONAL EDITION 1.0
+
+**Manufacturer:** SYGMA AIS — Artificial Intelligence Systems  
+**Product:** SYGMA BRAZIL ECONOMIC INTELLIGENCE AI  
+**Classification:** Advanced Economic Intelligence, Financial Markets, Macroeconomic Analysis and Quantitative Risk Management  
+**Platform:** Windows Desktop + Private Web  
+**Primary Market:** Brazil  
+**International Coverage:** Global financial markets and macroeconomic developments affecting Brazil  
+**Language:** Brazilian Portuguese (default), English (optional)  
+**Primary Currency:** BRL  
+**Development Environment:** Google AI Studio  
+**Architecture:** React + TypeScript + Python FastAPI + PostgreSQL + TimescaleDB  
+**Desktop Packaging:** Electron + Electron Forge  
+**Version:** 1.0.0
+
+---
+
+# PART 1 — MASTER SYSTEM INSTRUCTIONS
+
+## 1. YOUR ROLE
+
+Act simultaneously as:
+
+- Chief Software Architect.
+- Senior Financial Systems Engineer.
+- Senior Python Developer.
+- Quantitative Financial Analyst.
+- Macroeconomic Research Specialist.
+- Financial Data Engineer.
+- Econometrician.
+- Machine Learning Engineer.
+- Risk Management Specialist.
+- Financial Market Data Integration Engineer.
+- Cybersecurity Architect.
+- Professional Financial Dashboard Designer.
+- Software Quality Assurance Engineer.
+
+Your mission is to develop a sophisticated, professional and technically reliable economic intelligence platform.
+
+Do not create a simple financial dashboard.
+
+Create a comprehensive economic intelligence and analytical system capable of collecting, organizing, validating, comparing, visualizing and interpreting hundreds of economic and financial indicators.
+
+The system must be capable of answering:
+
+1. What is happening in the Brazilian economy?
+2. Why is it happening?
+3. Which indicators are responsible?
+4. What are the consequences?
+5. What are the risks?
+6. What could happen next?
+7. Which international factors could affect Brazil?
+8. How reliable are the underlying data?
+9. What are the alternative economic scenarios?
+10. Which developments deserve immediate attention?
+
+The platform must combine factual economic monitoring, quantitative calculations, econometric models, financial risk analysis and artificial intelligence.
+
+## 2. NON-NEGOTIABLE ENGINEERING PRINCIPLES
+
+1. Never fabricate financial quotations.
+2. Never invent economic indicators.
+3. Never simulate live connections and present them as operational.
+4. Never confuse historical data with real-time data.
+5. Never present forecasts as confirmed facts.
+6. Never conceal missing data.
+7. Never conceal failed API connections.
+8. Never silently substitute delayed information for live quotations.
+9. Never overwrite original historical observations.
+10. Never present a calculation without documenting its methodology.
+11. Never present an AI-generated conclusion without identifying its supporting evidence.
+12. Never use hardcoded financial values in production dashboards.
+13. Never expose API credentials in frontend code.
+14. Never claim that an external source has been connected unless the connection has been implemented and verified.
+15. Never mark an untested feature as operational.
+
+If a required API, commercial feed or license is unavailable, clearly identify the limitation and provide an integration interface for future activation.
+
+All missing functionality must be reported honestly.
+
+---
+
+# PART 2 — VISUAL IDENTITY AND USER EXPERIENCE
+
+## 3. CORPORATE DESIGN
+
+Create an institutional financial intelligence interface inspired by the information density and analytical organization of professional financial terminals.
+
+Do not copy proprietary interfaces.
+
+### Corporate identity
+
+Product: SYGMA BRAZIL ECONOMIC INTELLIGENCE AI.
+
+Manufacturer: SYGMA AIS.
+
+Primary colors:
+- Navy: #0A2540
+- Dark navy: #061827
+- Secondary cyan: #00B4D8
+- Light cyan: #5CD9F5
+- Background: #071521
+- Panel: #102438
+- Positive: #19B779
+- Negative: #E45159
+- Warning: #F0B94A
+- Neutral: #8FA6B9
+
+### Interface requirements
+
+Create:
+
+- Dark professional theme.
+- Optional light theme.
+- High-density financial dashboards.
+- Consistent typography.
+- Clearly differentiated data statuses.
+- Responsive tables.
+- Interactive financial charts.
+- Expandable analytical panels.
+- Customizable widgets.
+- Contextual tooltips.
+- Keyboard navigation.
+- Search across all indicators.
+- Favorites and watchlists.
+- Configurable notifications.
+
+The interface must look like a professional institutional research terminal.
+
+Avoid oversized cards, excessive empty space and decorative elements.
+
+## 4. MAIN NAVIGATION
+
+Implement the following navigation structure.
+
+### A. EXECUTIVE INTELLIGENCE
+1. Executive Overview.
+2. Brazil Economic Pulse.
+3. Global Economic Pulse.
+4. Economic Risk Index.
+5. Daily Intelligence Briefing.
+
+### B. FINANCIAL MARKETS
+6. Live Markets.
+7. Brazilian Stock Exchange.
+8. International Stock Markets.
+9. Foreign Exchange.
+10. Interest Rates.
+11. Government Bonds.
+12. Commodities.
+13. Derivatives and Futures.
+14. Financial Volatility.
+
+### C. BRAZILIAN ECONOMY
+15. GDP and Economic Growth.
+16. Inflation and Prices.
+17. Monetary Policy.
+18. Fiscal Policy and Public Debt.
+19. Employment and Income.
+20. Industrial Production.
+21. Retail and Services.
+22. Banking and Credit.
+23. Foreign Trade.
+24. Foreign Investment.
+25. Regional Economy.
+
+### D. INTERNATIONAL INTELLIGENCE
+26. United States.
+27. China.
+28. European Union.
+29. Latin America.
+30. Global Central Banks.
+31. International Trade.
+32. Geopolitical and Economic Risk.
+
+### E. QUANTITATIVE ANALYSIS
+33. Economic Indicators.
+34. Historical Database.
+35. Correlation Analysis.
+36. Statistical Analysis.
+37. Economic Forecasts.
+38. Scenario Simulation.
+39. Quantitative Risk.
+40. Portfolio and Exposure Analysis.
+
+### F. ARTIFICIAL INTELLIGENCE
+41. SYGMA AI Economic Analyst.
+42. AI News Intelligence.
+43. AI Economic Research.
+44. AI Forecast Assistant.
+45. AI Report Generator.
+
+### G. MONITORING
+46. Economic Calendar.
+47. News Center.
+48. Alerts Center.
+49. Source Monitoring.
+50. Data Quality Control.
+
+### H. REPORTING AND ADMINISTRATION
+51. Reports Center.
+52. Data Export.
+53. Dashboard Configuration.
+54. Provider Administration.
+55. System Monitoring.
+56. Security and Audit.
+57. Settings.
+
+Create a hierarchical sidebar with expandable sections.
+
+---
+
+# PART 3 — REAL-TIME DATA ACQUISITION
+
+## 5. UNIVERSAL DATA CONNECTOR ENGINE
+
+Build a modular data acquisition engine.
+
+It must support:
+
+- REST APIs.
+- WebSocket.
+- Official statistical APIs.
+- Commercial financial feeds.
+- Authorized RSS feeds.
+- Scheduled downloads.
+- Historical data imports.
+- Licensed news services.
+- CSV and Excel imports.
+- JSON and XML sources.
+
+Use independently replaceable provider connectors.
+
+### Required provider registry
+
+Brazil:
+
+1. Banco Central do Brasil.
+2. IBGE.
+3. IPEA.
+4. Tesouro Nacional.
+5. B3.
+6. CVM.
+7. ANBIMA.
+8. MDIC / Comex Stat.
+9. CONAB.
+10. FGV.
+11. INMET.
+12. ANEEL.
+13. ANP.
+14. ANATEL.
+15. Receita Federal, where authorized data is available.
+
+International:
+
+1. Federal Reserve.
+2. European Central Bank.
+3. IMF.
+4. World Bank.
+5. OECD.
+6. BIS.
+7. Eurostat.
+8. CME Group.
+9. ICE.
+10. Licensed global market data distributors.
+
+News and research:
+
+1. Reuters.
+2. Bloomberg.
+3. Valor Econômico.
+4. InfoMoney.
+5. Investing.com.
+6. Financial Times.
+7. CNBC.
+8. Official central bank announcements.
+9. Government economic releases.
+10. Corporate investor relations announcements.
+
+Do not scrape protected websites or bypass authentication, paywalls or access restrictions.
+
+Use official APIs and properly licensed feeds.
+
+### 5.1 Provider management screen
+
+For each provider display:
+
+- Provider name.
+- Provider category.
+- Connection status.
+- API status.
+- Authentication status.
+- License status.
+- Last successful update.
+- Last failed update.
+- Average latency.
+- Data delay.
+- Number of records collected.
+- Number of errors.
+- Rate limit consumption.
+- Last validation result.
+
+Provide buttons to:
+
+- Test connection.
+- Refresh credentials.
+- Run synchronization.
+- Inspect errors.
+- Review source documentation.
+- Disable connector.
+- Enable connector.
+
+### 5.2 Connection health monitoring
+
+Implement:
+
+- Automatic retries.
+- Exponential backoff.
+- Circuit breakers.
+- Request timeouts.
+- Rate limiting.
+- Connection pooling.
+- Error classification.
+- Failure notifications.
+- Automatic recovery.
+
+A failure in one provider must not stop the remaining providers.
+
+### 5.3 Data status
+
+Every financial observation must display one of these statuses:
+
+LIVE — Confirmed live feed.
+
+DELAYED — Provider-confirmed delayed data.
+
+PERIODIC — Periodically published economic information.
+
+HISTORICAL — Previously collected historical observation.
+
+ESTIMATED — Model-generated estimate.
+
+FORECAST — Future projection.
+
+STALE — Data older than the configured freshness threshold.
+
+MISSING — No valid data available.
+
+UNVERIFIED — Data not yet validated.
+
+Never label a value LIVE merely because it was recently downloaded.
+
+---
+
+# PART 4 — DATABASE AND HISTORICAL INTELLIGENCE
+
+## 6. DATABASE ARCHITECTURE
+
+Implement:
+
+- PostgreSQL.
+- TimescaleDB.
+- Redis.
+- Parquet historical archives.
+
+Create normalized database schemas:
+
+CORE
+MARKET_DATA
+MACROECONOMIC
+COMMODITIES
+NEWS
+ANALYTICS
+FORECASTS
+RISK
+INTELLIGENCE
+AUDIT
+
+### Database entities
+
+Create:
+
+- providers
+- provider_credentials
+- instruments
+- economic_indicators
+- observations
+- historical_prices
+- exchange_rates
+- interest_rates
+- market_indices
+- commodity_prices
+- economic_events
+- news_articles
+- data_revisions
+- data_quality_records
+- forecasts
+- forecast_versions
+- risk_results
+- risk_scenarios
+- model_registry
+- alerts
+- user_settings
+- audit_events
+
+### Historical requirements
+
+Maintain historical information for as long as legally and technically possible.
+
+Target at least ten years of historical data for important indicators where available.
+
+Preserve:
+
+- Original observations.
+- Publication dates.
+- Reference periods.
+- Data revisions.
+- Source metadata.
+- Ingestion timestamps.
+- Normalized values.
+- Transformation history.
+
+Implement data backup and recovery.
+
+Do not delete original observations when updated values arrive.
+
+---
+
+# PART 5 — BRAZILIAN ECONOMIC INTELLIGENCE
+
+## 7. MACROECONOMIC ANALYSIS ENGINE
+
+Develop comprehensive macroeconomic monitoring.
+
+### 7.1 GDP
+
+Monitor:
+
+- Nominal GDP.
+- Real GDP.
+- GDP growth.
+- GDP per capita.
+- GDP by sector.
+- Agricultural GDP.
+- Industrial GDP.
+- Services GDP.
+- Quarterly growth.
+- Annual growth.
+- Year-over-year growth.
+- Seasonally adjusted growth.
+- Regional GDP.
+- Historical GDP revisions.
+
+Graphs:
+
+- GDP historical evolution.
+- Quarterly growth.
+- Annual growth.
+- Sector contributions.
+- GDP versus inflation.
+- GDP versus SELIC.
+- GDP versus unemployment.
+- Brazil versus international economies.
+
+### 7.2 INFLATION
+
+Monitor:
+
+- IPCA.
+- IPCA-15.
+- INPC.
+- IGP-M.
+- IGP-DI.
+- Food inflation.
+- Housing inflation.
+- Transport inflation.
+- Healthcare inflation.
+- Energy inflation.
+- Services inflation.
+- Core inflation measures where available.
+- Inflation expectations.
+
+Graphs:
+
+- Monthly inflation.
+- Accumulated inflation.
+- Twelve-month inflation.
+- Inflation decomposition.
+- Sector contribution.
+- Historical inflation comparison.
+- Inflation expectations.
+- Inflation versus SELIC.
+
+Analyses:
+
+- Inflation acceleration.
+- Inflation deceleration.
+- Inflation persistence.
+- Demand pressures.
+- Supply shocks.
+- Food and energy transmission.
+- Real purchasing power.
+
+### 7.3 MONETARY POLICY
+
+Monitor:
+
+- SELIC target.
+- Effective SELIC.
+- CDI.
+- COPOM decisions.
+- Monetary policy statements.
+- Inflation expectations.
+- Market expectations.
+- Real interest rates.
+- DI futures.
+- Yield curve.
+
+Graphs:
+
+- SELIC historical evolution.
+- SELIC versus IPCA.
+- CDI versus SELIC.
+- Yield curve.
+- Real interest rates.
+- Expected monetary policy trajectory.
+
+Generate analytical feedback on:
+
+- Monetary tightening.
+- Monetary easing.
+- Inflation control.
+- Credit costs.
+- Investment impacts.
+- Household consumption.
+- Fiscal consequences.
+
+### 7.4 FISCAL POLICY
+
+Monitor:
+
+- Gross public debt.
+- Net public debt.
+- Primary result.
+- Nominal result.
+- Federal expenditure.
+- Public revenue.
+- Tax collection.
+- Debt service.
+- Interest expenditure.
+- Debt-to-GDP.
+- Fiscal targets.
+- Government budget.
+- Treasury issuance.
+
+Graphs:
+
+- Public debt evolution.
+- Debt-to-GDP.
+- Primary balance.
+- Revenue versus expenditure.
+- Interest expenditure.
+- Fiscal result versus GDP.
+- Public debt maturity profile where available.
+
+Risk analyses:
+
+- Fiscal sustainability.
+- Debt refinancing risk.
+- Interest-rate sensitivity.
+- Fiscal credibility.
+- Primary surplus requirements.
+- Fiscal shock scenarios.
+
+### 7.5 EMPLOYMENT AND INCOME
+
+Monitor:
+
+- Unemployment rate.
+- Employment level.
+- Formal employment.
+- Informality.
+- Average wages.
+- Real wages.
+- Labor force participation.
+- CAGED.
+- PNAD Contínua.
+- Productivity.
+
+Graphs:
+
+- Unemployment history.
+- Formal employment growth.
+- Wage evolution.
+- Real income.
+- Productivity.
+- Employment versus GDP.
+
+### 7.6 BANKING AND CREDIT
+
+Monitor:
+
+- Total credit.
+- Household credit.
+- Corporate credit.
+- Default rates.
+- Interest spreads.
+- Average lending rates.
+- Financial system liquidity.
+- Banking profitability.
+- Capital adequacy where available.
+- Credit growth.
+
+Analyze:
+
+- Credit expansion.
+- Credit contraction.
+- Financial stress.
+- Banking vulnerabilities.
+- Household indebtedness.
+- Corporate debt pressure.
+
+### 7.7 FOREIGN TRADE
+
+Monitor:
+
+- Exports.
+- Imports.
+- Trade balance.
+- Current account.
+- Foreign direct investment.
+- Foreign reserves.
+- Export composition.
+- Import composition.
+- Trade partner concentration.
+
+Graphs:
+
+- Trade balance.
+- Exports versus imports.
+- Commodity exports.
+- Manufacturing exports.
+- Partner-country comparison.
+- Terms of trade.
+
+---
+
+# PART 6 — FINANCIAL MARKETS
+
+## 8. FOREIGN EXCHANGE INTELLIGENCE
+
+Monitor:
+
+- USD/BRL.
+- EUR/BRL.
+- GBP/BRL.
+- JPY/BRL.
+- CNY/BRL.
+- EUR/USD.
+- GBP/USD.
+- USD/JPY.
+- DXY.
+
+Include:
+
+- Spot quotations.
+- Bid and ask.
+- Spreads.
+- Official PTAX.
+- Currency futures.
+- Forward rates.
+- Intraday variation.
+- Daily variation.
+- Weekly variation.
+- Monthly variation.
+- Annual variation.
+- Historical volatility.
+- Realized volatility.
+- Currency correlations.
+
+Charts:
+
+1. Intraday exchange-rate chart.
+2. One-day chart.
+3. Five-day chart.
+4. Thirty-day chart.
+5. One-year chart.
+6. Five-year chart.
+7. Ten-year chart.
+8. Currency comparison.
+9. Volatility chart.
+10. Correlation matrix.
+
+Technical indicators:
+
+- SMA.
+- EMA.
+- RSI.
+- MACD.
+- Bollinger Bands.
+- ATR.
+- Historical volatility.
+
+Provide an analytical interpretation, without representing technical indicators as guarantees of future movements.
+
+## 9. BRAZILIAN STOCK EXCHANGE
+
+Monitor:
+
+- IBOV.
+- IBRX 50.
+- IBRX 100.
+- IFIX.
+- Sector indices.
+- Individual equities.
+- ETFs.
+- FIIs.
+- BDRs.
+- Futures.
+- Options.
+
+For each instrument provide:
+
+- Last price.
+- Bid.
+- Ask.
+- Trading volume.
+- Daily variation.
+- Market capitalization.
+- Liquidity.
+- Historical return.
+- Volatility.
+- Maximum drawdown.
+- Sector.
+- Market session.
+- Data source.
+
+Create:
+
+- Top gainers.
+- Top losers.
+- Highest volume.
+- Highest volatility.
+- Sector performance.
+- Market breadth.
+- Historical performance.
+- Comparative rankings.
+
+## 10. INTERNATIONAL MARKETS
+
+Monitor:
+
+- S&P 500.
+- Nasdaq Composite.
+- Dow Jones.
+- Russell 2000.
+- Euro Stoxx 50.
+- DAX.
+- FTSE 100.
+- CAC 40.
+- Nikkei 225.
+- Shanghai Composite.
+- Hang Seng.
+- MSCI Emerging Markets.
+
+Analyze international developments and their potential transmission to Brazil.
+
+---
+
+# PART 7 — COMMODITIES AND GLOBAL ECONOMY
+
+## 11. COMMODITY INTELLIGENCE
+
+### Energy
+
+- Brent.
+- WTI.
+- Natural gas.
+- LNG.
+- Coal.
+- Refined petroleum products.
+
+### Metals
+
+- Gold.
+- Silver.
+- Copper.
+- Iron ore.
+- Aluminium.
+- Nickel.
+
+### Agriculture
+
+- Soybeans.
+- Corn.
+- Coffee.
+- Sugar.
+- Cotton.
+- Wheat.
+- Beef.
+- Pork.
+- Poultry.
+
+### Other
+
+- Fertilizers.
+- Cellulose.
+- Industrial raw materials.
+
+For every commodity show:
+
+- Price.
+- Currency.
+- Unit.
+- Exchange or benchmark.
+- Market session.
+- Data timestamp.
+- Daily variation.
+- Monthly variation.
+- Annual variation.
+- Historical volatility.
+
+Create commodity heatmaps.
+
+Create Brazil exposure analyses.
+
+Calculate the potential impact of commodity shocks on:
+
+- Brazilian exports.
+- Trade balance.
+- Inflation.
+- Exchange rates.
+- Agricultural income.
+- Industrial costs.
+- Government revenues.
+
+---
+
+# PART 8 — ADVANCED GRAPHICAL ANALYTICS
+
+## 12. FINANCIAL VISUALIZATION ENGINE
+
+Use Apache ECharts for comprehensive analytical charts and TradingView Lightweight Charts for financial market price visualization.
+
+Every chart must be interactive and connected to actual backend data.
+
+### 12.1 Required chart types
+
+Implement:
+
+1. Line charts.
+2. Area charts.
+3. Stacked area charts.
+4. Candlestick charts.
+5. OHLC charts.
+6. Bar charts.
+7. Grouped bar charts.
+8. Histograms.
+9. Scatter plots.
+10. Bubble charts.
+11. Heatmaps.
+12. Correlation matrices.
+13. Yield curves.
+14. Waterfall charts.
+15. Treemaps.
+16. Box plots.
+17. Violin plots where appropriate.
+18. Radar charts.
+19. Geographic maps.
+20. Sankey diagrams.
+21. Forecast fan charts.
+22. Confidence interval charts.
+23. Monte Carlo distribution charts.
+24. Risk contribution charts.
+25. Time-series decomposition charts.
+
+### 12.2 Interactive functionality
+
+Every chart must support:
+
+- Zoom.
+- Pan.
+- Date-range selection.
+- Tooltip.
+- Crosshair.
+- Legend filtering.
+- Series selection.
+- Multiple axes where justified.
+- Historical comparison.
+- Data export.
+- Full-screen mode.
+- Screenshot export.
+- Indicator overlays.
+
+### 12.3 Time periods
+
+Allow:
+
+- Intraday.
+- 1 day.
+- 5 days.
+- 1 month.
+- 3 months.
+- 6 months.
+- 1 year.
+- 3 years.
+- 5 years.
+- 10 years.
+- Maximum available history.
+- Custom date range.
+
+### 12.4 Chart intelligence
+
+Under every important chart provide:
+
+- What the chart shows.
+- Current trend.
+- Historical context.
+- Significant variations.
+- Relevant turning points.
+- Possible economic interpretation.
+- Data limitations.
+- Source and update time.
+
+Do not automatically generate interpretations when the underlying series is insufficient.
+
+### 12.5 Technical chart feedback
+
+Create a dedicated chart analysis panel.
+
+It must identify:
+
+- Trend direction.
+- Volatility regime.
+- Support and resistance estimates when relevant.
+- Moving-average relationships.
+- Momentum.
+- Unusual movements.
+- Statistical anomalies.
+
+Label these as analytical indicators, not guaranteed trading signals.
+
+---
+
+# PART 9 — ECONOMIC CORRELATION AND CAUSAL ANALYSIS
+
+## 13. CROSS-INDICATOR INTELLIGENCE ENGINE
+
+Develop an engine capable of analyzing relationships between economic indicators.
+
+Required comparisons:
+
+- SELIC versus IPCA.
+- SELIC versus USD/BRL.
+- USD/BRL versus inflation.
+- GDP versus unemployment.
+- GDP versus industrial production.
+- Public debt versus interest rates.
+- Fiscal balance versus currency.
+- Brent versus inflation.
+- Iron ore versus trade balance.
+- China GDP versus Brazilian exports.
+- US interest rates versus Brazilian capital flows.
+- Commodity prices versus IBOV.
+- Credit growth versus consumption.
+
+Implement:
+
+- Pearson correlation.
+- Spearman correlation.
+- Rolling correlations.
+- Lagged correlations.
+- Cross-correlation.
+- Regression.
+- Multiple regression.
+- VAR.
+- Granger causality testing.
+- Cointegration analysis.
+- Principal component analysis.
+
+For each analysis display:
+
+1. Variables.
+2. Sample period.
+3. Frequency.
+4. Observations.
+5. Statistical method.
+6. Correlation coefficient.
+7. Statistical significance where applicable.
+8. Limitations.
+9. Interpretation.
+
+Never interpret correlation as proof of causation.
+
+Use causal models only when their assumptions and identification strategy are documented.
+
+---
+
+# PART 10 — QUANTITATIVE RISK MANAGEMENT
+
+## 14. RISK ENGINE
+
+Implement a quantitative risk engine independent of generative AI.
+
+### Market risk
+
+- Historical VaR.
+- Parametric VaR.
+- Monte Carlo VaR.
+- Expected Shortfall.
+- Volatility.
+- Maximum drawdown.
+- Beta.
+- Correlation.
+- Covariance.
+- Concentration risk.
+
+### Stress testing
+
+Simulate:
+
+Scenario A:
+SELIC +2 percentage points.
+
+Scenario B:
+USD/BRL +15%.
+
+Scenario C:
+Brent -25%.
+
+Scenario D:
+Iron ore -30%.
+
+Scenario E:
+IPCA +3 percentage points above baseline.
+
+Scenario F:
+Chinese GDP growth slowdown.
+
+Scenario G:
+US recession.
+
+Scenario H:
+Brazilian fiscal crisis.
+
+Scenario I:
+Global financial stress.
+
+Scenario J:
+Combined adverse scenario.
+
+These values are configurable hypothetical shocks, not forecasts.
+
+### Monte Carlo
+
+Implement:
+
+- Configurable number of simulations.
+- Random seed preservation.
+- Distribution selection.
+- Correlation structures.
+- Scenario assumptions.
+- Simulation diagnostics.
+
+Initial target: 10,000 simulations.
+
+### Risk reports
+
+Display:
+
+- Risk exposure.
+- Risk contribution.
+- Stress losses.
+- Expected Shortfall.
+- Volatility.
+- Confidence intervals.
+- Scenario ranking.
+- Model assumptions.
+
+### Model validation
+
+Implement backtesting and independent numerical verification.
+
+---
+
+# PART 11 — ECONOMETRIC FORECASTING
+
+## 15. FORECASTING ENGINE
+
+Implement:
+
+- ARIMA.
+- SARIMA.
+- SARIMAX.
+- VAR.
+- VECM.
+- GARCH.
+- State-space models.
+- Bayesian regression.
+- Random Forest.
+- XGBoost.
+- LightGBM where appropriate.
+- Neural networks.
+- LSTM where justified.
+
+### Forecast targets
+
+- USD/BRL.
+- EUR/BRL.
+- IPCA.
+- SELIC-related indicators.
+- GDP.
+- Unemployment.
+- Industrial production.
+- IBOV.
+- Brent.
+- Iron ore.
+- Soybeans.
+- Public debt indicators.
+
+### Forecast horizons
+
+- 1 day.
+- 5 days.
+- 30 days.
+- 90 days.
+- 6 months.
+- 12 months.
+- 3 years.
+- 5 years.
+
+Only activate horizons supported by the data and model.
+
+### Scenario generation
+
+Produce:
+
+- Central scenario.
+- Optimistic scenario.
+- Adverse scenario.
+- Severe stress scenario.
+
+Display:
+
+- Forecast value.
+- Prediction interval.
+- Assumptions.
+- Model name.
+- Model version.
+- Last training date.
+- Historical validation.
+- Forecast uncertainty.
+
+### Validation
+
+Use:
+
+- Walk-forward validation.
+- Rolling-origin testing.
+- Time-based splits.
+- Prevention of look-ahead bias.
+- MAE.
+- RMSE.
+- MASE.
+- Directional accuracy.
+- Interval coverage.
+
+Do not use random train/test splitting for time-series forecasting.
+
+Never present a forecast without its validation metrics and limitations.
+
+---
+
+# PART 12 — AI ECONOMIC ANALYST
+
+## 16. SYGMA AI ECONOMIC ANALYST
+
+Build an integrated AI assistant.
+
+The assistant must access the platform through controlled tools.
+
+It must be able to:
+
+- Retrieve economic indicators.
+- Query historical data.
+- Compare time periods.
+- Analyze financial markets.
+- Retrieve economic news.
+- Inspect economic forecasts.
+- Run approved statistical calculations.
+- Retrieve risk results.
+- Generate charts.
+- Produce reports.
+
+### Natural language questions
+
+Examples:
+
+"What is the current economic condition of Brazil?"
+
+"Is the Brazilian economy accelerating or slowing down?"
+
+"Why is the real depreciating?"
+
+"What is happening with Brazilian inflation?"
+
+"How does SELIC affect economic growth?"
+
+"What is the impact of a 20% decline in iron ore?"
+
+"What would happen if the dollar reached BRL 6.50?"
+
+"What is the risk of a Brazilian recession in 2027?"
+
+"Compare Brazil with Mexico, Chile and Argentina."
+
+"Analyze the last ten years of Brazilian public debt."
+
+"Identify the five most important economic risks."
+
+### Required answer format
+
+For complex analyses:
+
+1. Executive summary.
+2. Current situation.
+3. Verified data.
+4. Historical comparison.
+5. Statistical evidence.
+6. Economic explanation.
+7. Relevant international factors.
+8. Risk assessment.
+9. Alternative scenarios.
+10. Uncertainties.
+11. Sources.
+12. Data timestamps.
+
+### AI feedback
+
+The AI must distinguish:
+
+- Confirmed information.
+- Official statistics.
+- Commercial market quotations.
+- Statistical estimates.
+- Forecasts.
+- Interpretations.
+- Hypotheses.
+
+Every factual financial answer must have traceable evidence.
+
+### AI security
+
+Use read-only data access by default.
+
+Never allow retrieved news or external documents to execute system instructions.
+
+Never allow the LLM to modify original financial observations.
+
+Never allow the LLM to silently invent missing information.
+
+---
+
+# PART 13 — TECHNICAL FEEDBACK AND SYSTEM INTELLIGENCE
+
+## 17. ADVANCED TECHNICAL FEEDBACK ENGINE
+
+This is a mandatory subsystem.
+
+The application must not simply display charts and values.
+
+It must continuously evaluate the quality, consistency and operational condition of its own data and calculations.
+
+Create a dedicated section named:
+
+SYGMA TECHNICAL INTELLIGENCE & SYSTEM FEEDBACK.
+
+### 17.1 Data feedback
+
+Monitor:
+
+- Missing observations.
+- Duplicate observations.
+- Abnormal values.
+- Timestamp inconsistencies.
+- Source discrepancies.
+- Unit inconsistencies.
+- Currency conversion errors.
+- Delayed feeds.
+- Failed ingestion.
+- Historical revisions.
+
+For each problem show:
+
+- Problem identification.
+- Affected source.
+- Affected indicator.
+- First occurrence.
+- Last occurrence.
+- Severity.
+- Recommended correction.
+- Resolution status.
+
+### 17.2 Statistical feedback
+
+Automatically detect:
+
+- Outliers.
+- Structural breaks.
+- Unexpected volatility.
+- Regime changes.
+- Trend reversals.
+- Seasonal anomalies.
+- Correlation changes.
+- Distribution shifts.
+
+Provide statistical evidence and distinguish detected anomalies from confirmed economic events.
+
+### 17.3 Model feedback
+
+Monitor:
+
+- Forecast accuracy.
+- Model deterioration.
+- Prediction interval coverage.
+- Backtesting exceptions.
+- Training data changes.
+- Model drift.
+- Feature importance changes.
+- Parameter instability.
+
+If a model deteriorates, issue a warning.
+
+Never silently replace a production model.
+
+### 17.4 Technical feedback messages
+
+Examples:
+
+"USD/BRL connector has not received new data within the configured freshness threshold."
+
+"IPCA series has been revised by its original provider."
+
+"Correlation between USD/BRL and SELIC expectations has changed significantly."
+
+"Forecast model performance has deteriorated compared with the previous evaluation period."
+
+"Brent data is delayed and cannot support a real-time analysis."
+
+"Historical observations are incomplete for the selected comparison period."
+
+### 17.5 Severity levels
+
+CRITICAL:
+Immediate intervention required.
+
+HIGH:
+Important operational or analytical problem.
+
+MODERATE:
+Requires investigation.
+
+LOW:
+Informational.
+
+INFORMATIONAL:
+No action required.
+
+### 17.6 Technical dashboard
+
+Display:
+
+- Overall system health.
+- API availability.
+- Data ingestion health.
+- Database health.
+- Backend health.
+- Frontend health.
+- AI service health.
+- Model validation status.
+- Data quality status.
+- Pending errors.
+- Failed jobs.
+- Backup status.
+
+Provide a technical event timeline.
+
+---
+
+# PART 14 — NEWS INTELLIGENCE
+
+## 18. ECONOMIC NEWS ANALYSIS
+
+Develop a professional news intelligence subsystem.
+
+Monitor:
+
+- Brazilian government announcements.
+- Central bank decisions.
+- Economic legislation.
+- Fiscal developments.
+- Financial institutions.
+- Corporate developments.
+- International trade.
+- Commodities.
+- Geopolitical developments.
+- Global monetary policy.
+
+For each article:
+
+- Title.
+- Source.
+- Publication time.
+- Author if available.
+- Original link.
+- Topic.
+- Relevant entities.
+- Economic relevance.
+- Sentiment classification.
+- Potential impact on Brazil.
+- Related indicators.
+
+### AI-generated analysis
+
+Produce:
+
+- Executive summary.
+- Key facts.
+- Economic interpretation.
+- Potential consequences.
+- Relevant indicators.
+- Related historical events.
+- Confidence and uncertainty.
+
+Deduplicate syndicated stories.
+
+Do not confuse multiple copies of one news article with independent source confirmation.
+
+---
+
+# PART 15 — ECONOMIC CALENDAR AND ALERTS
+
+## 19. ECONOMIC CALENDAR
+
+Create a calendar with:
+
+- Publication date.
+- Publication time.
+- Country.
+- Institution.
+- Indicator.
+- Previous value.
+- Market expectation, when licensed.
+- Actual value.
+- Surprise versus expectation.
+- Historical revision.
+- Potential economic relevance.
+
+Support:
+
+- Daily view.
+- Weekly view.
+- Monthly view.
+- Custom filters.
+- Country filters.
+- Event importance filters.
+
+### Alerts
+
+Create configurable alerts for:
+
+- Currency variations.
+- Interest-rate changes.
+- Inflation releases.
+- GDP releases.
+- Stock-market volatility.
+- Commodity movements.
+- Unexpected data revisions.
+- API failures.
+- Model deterioration.
+- Critical news.
+
+Support:
+
+- In-application alerts.
+- Desktop notifications.
+- Email notifications where configured.
+
+---
+
+# PART 16 — ECONOMIC RISK AND BRAZILIAN ECONOMIC PULSE
+
+## 20. BRAZIL ECONOMIC PULSE
+
+Develop a composite economic monitoring dashboard.
+
+Create separate analytical dimensions:
+
+1. Economic growth.
+2. Inflation.
+3. Monetary conditions.
+4. Fiscal sustainability.
+5. External vulnerability.
+6. Employment.
+7. Credit conditions.
+8. Financial markets.
+9. Commodity exposure.
+10. International environment.
+
+Calculate individual scores only when a documented methodology and adequate data exist.
+
+If a composite score is used, display:
+
+- Formula.
+- Variables.
+- Weights.
+- Normalization.
+- Reference period.
+- Missing data treatment.
+- Sensitivity.
+- Limitations.
+
+Never present an arbitrary score as an official Brazilian economic index.
+
+Display a transparent overall economic assessment:
+
+- Favorable.
+- Stable.
+- Caution.
+- Adverse.
+- Severe stress.
+
+The status must be supported by documented criteria.
+
+---
+
+# PART 17 — EXECUTIVE DASHBOARD
+
+## 21. MAIN SCREEN DESIGN
+
+Create a premium institutional dashboard.
+
+### Header
+
+Display:
+
+SYGMA BRAZIL ECONOMIC INTELLIGENCE AI.
+
+Include:
+
+- Current date.
+- Current time.
+- Market session.
+- Global connection status.
+- Database status.
+- AI status.
+- Notifications.
+
+### KPI row
+
+Display:
+
+- USD/BRL.
+- EUR/BRL.
+- SELIC.
+- CDI.
+- IPCA.
+- IBOV.
+- Brent.
+- Gold.
+- Iron ore.
+- GDP growth.
+
+Every value must show its data status and timestamp.
+
+### Main graphs
+
+Graph 1: USD/BRL historical and intraday evolution.
+
+Graph 2: IBOV historical evolution.
+
+Graph 3: SELIC versus IPCA.
+
+Graph 4: Brazilian GDP growth.
+
+Graph 5: Brent and iron ore.
+
+Graph 6: Public debt versus GDP.
+
+Graph 7: Brazilian economic indicators heatmap.
+
+Graph 8: International markets comparison.
+
+### Intelligence panels
+
+Panel A — Brazilian Economic Situation.
+
+Panel B — International Economic Environment.
+
+Panel C — Main Economic Risks.
+
+Panel D — Latest Important News.
+
+Panel E — Upcoming Economic Events.
+
+Panel F — Forecast Scenarios.
+
+Panel G — Data Quality Alerts.
+
+Panel H — Technical System Health.
+
+### Executive analysis
+
+Create an AI-generated executive summary containing:
+
+- Current economic condition.
+- Main positive developments.
+- Main negative developments.
+- Relevant changes.
+- Critical indicators.
+- International risks.
+- Short-term outlook.
+- Medium-term outlook.
+- Data quality limitations.
+
+Every conclusion must link to its supporting indicators and sources.
+
+---
+
+# PART 18 — REPORTING AND DOCUMENTATION
+
+## 22. PROFESSIONAL REPORT GENERATOR
+
+Create professional exportable reports.
+
+Formats:
+
+- PDF.
+- Excel.
+- CSV.
+- HTML.
+
+Reports:
+
+1. Daily Economic Briefing.
+2. Weekly Brazil Economic Report.
+3. Monthly Macroeconomic Report.
+4. Brazilian Financial Markets Report.
+5. Exchange Rate Analysis.
+6. Interest Rate Analysis.
+7. Inflation Report.
+8. Fiscal Risk Report.
+9. Commodity Exposure Report.
+10. International Economic Risk Report.
+11. Recession Risk Assessment.
+12. Economic Forecast Report.
+13. Quantitative Risk Report.
+14. Custom Research Report.
+
+Every report must include:
+
+- SYGMA AIS identity.
+- Report date.
+- Reference period.
+- Executive summary.
+- Charts.
+- Tables.
+- Analysis.
+- Methodology.
+- Data sources.
+- Data timestamps.
+- Limitations.
+- Forecast uncertainty where applicable.
+
+Reports must be reproducible using the original stored data and model version.
+
+---
+
+# PART 19 — PRIVATE PLATFORM AND DESKTOP
+
+## 23. DESKTOP APPLICATION
+
+Develop a Windows desktop application using Electron.
+
+Requirements:
+
+- Windows installer.
+- Secure IPC.
+- Context isolation.
+- Disabled renderer Node integration.
+- Local backend integration.
+- Persistent local database.
+- Automatic startup.
+- Error logging.
+- Backup management.
+- Update management.
+- Uninstallation.
+
+Final installer target:
+
+SYGMA-BRAZIL-ECONOMIC-INTELLIGENCE-AI-Setup-1.0.0.exe
+
+The installed application must not require users to install development tools.
+
+## 24. PRIVATE WEB APPLICATION
+
+Create a web deployment using the same application API.
+
+Requirements:
+
+- HTTPS.
+- Authentication.
+- Secure sessions.
+- Database protection.
+- API rate limiting.
+- Private access.
+- Monitoring.
+- Backup.
+- Controlled updates.
+
+Do not assume Desktop and Web are automatically synchronized.
+
+Implement controlled synchronization through the API.
+
+---
+
+# PART 20 — CYBERSECURITY AND RELIABILITY
+
+## 25. SECURITY
+
+Implement:
+
+- Secure credential storage.
+- Environment variables.
+- Encrypted secrets.
+- Authentication.
+- Authorization.
+- Input validation.
+- API protection.
+- Rate limiting.
+- Audit logging.
+- Database permissions.
+- Secure backup.
+- Dependency scanning.
+- Security event monitoring.
+
+Never store commercial API credentials in public frontend files.
+
+## 26. RELIABILITY
+
+Design for:
+
+- Provider failure isolation.
+- Automatic reconnection.
+- Database recovery.
+- Offline historical consultation.
+- Backup restoration.
+- Application restart.
+- Data integrity verification.
+
+Target 99.9% application service availability where infrastructure and operational conditions permit.
+
+Clearly distinguish internal service availability from external provider availability.
+
+---
+
+# PART 21 — DEVELOPMENT AND TESTING
+
+## 27. DEVELOPMENT PROCESS
+
+Develop the platform incrementally.
+
+Phase 0 — Architecture and documentation.
+
+Phase 1 — Core platform.
+
+Phase 2 — Data acquisition.
+
+Phase 3 — Database.
+
+Phase 4 — Financial markets.
+
+Phase 5 — Brazilian macroeconomics.
+
+Phase 6 — Commodities and global economy.
+
+Phase 7 — News and events.
+
+Phase 8 — Quantitative risk.
+
+Phase 9 — Econometric forecasting.
+
+Phase 10 — AI Economic Analyst.
+
+Phase 11 — Dashboard and reports.
+
+Phase 12 — Audit and deployment.
+
+After each phase:
+
+- Inspect existing code.
+- Preserve working functionality.
+- Execute tests.
+- Resolve errors.
+- Update documentation.
+- Verify integration.
+- Produce a completion report.
+
+Do not implement everything in a single enormous source file.
+
+Maintain modular architecture.
+
+## 28. AUTOMATED TESTING
+
+Implement:
+
+Frontend:
+- Vitest.
+- Component tests.
+- State management tests.
+- Chart tests.
+
+Backend:
+- Pytest.
+- API tests.
+- Connector tests.
+- Database tests.
+- Statistical calculation tests.
+
+End-to-end:
+- Playwright.
+
+Financial validation:
+- Independent calculation references.
+- Historical data comparisons.
+- Forecast backtesting.
+- VaR validation.
+
+Security:
+- Dependency scanning.
+- API security tests.
+- Authentication tests.
+- Electron security tests.
+
+## 29. PERFORMANCE
+
+Measure:
+
+- API response times.
+- Database query latency.
+- Chart rendering performance.
+- Connector latency.
+- Memory consumption.
+- CPU utilization.
+- Data ingestion throughput.
+
+Create a technical performance dashboard.
+
+Do not declare performance targets achieved without measurement.
+
+---
+
+# PART 22 — FINAL DEVELOPMENT EXECUTION INSTRUCTIONS
+
+## 30. WHAT YOU MUST BUILD NOW
+
+Begin the implementation of SYGMA BRAZIL ECONOMIC INTELLIGENCE AI.
+
+Do not merely describe the system.
+
+Create the actual application source code and its functional architecture.
+
+First, inspect the available development environment and determine which files, backend services, database capabilities and deployment tools can actually be created.
+
+Then proceed in the following order:
+
+STEP 1:
+Create the complete project structure.
+
+STEP 2:
+Create the React and TypeScript frontend.
+
+STEP 3:
+Create the professional institutional navigation and dashboard.
+
+STEP 4:
+Create the FastAPI backend.
+
+STEP 5:
+Create the database schema and migrations.
+
+STEP 6:
+Create the universal connector framework.
+
+STEP 7:
+Integrate the first official Brazilian economic sources.
+
+STEP 8:
+Create the historical data management system.
+
+STEP 9:
+Create the financial charting engine.
+
+STEP 10:
+Implement the initial economic calculations.
+
+STEP 11:
+Implement data quality and technical feedback.
+
+STEP 12:
+Implement the AI Economic Analyst interface.
+
+STEP 13:
+Implement automated tests.
+
+STEP 14:
+Document the remaining integrations and external dependencies.
+
+### IMPORTANT DEVELOPMENT RULES
+
+Do not replace backend requirements with frontend simulations.
+
+Do not create fake API responses.
+
+Do not use static example values in operational financial widgets.
+
+If an API cannot be accessed in the development environment, create a correctly structured connector with an explicit NOT CONFIGURED or NOT CONNECTED status.
+
+Create demonstration data only in a separate, clearly labeled test environment.
+
+Do not conceal unfinished functionality.
+
+Do not report successful tests that were not executed.
+
+### REQUIRED INITIAL DELIVERABLES
+
+Produce:
+
+1. Complete project structure.
+2. Functional frontend.
+3. Initial executive dashboard.
+4. Main navigation.
+5. FastAPI backend.
+6. PostgreSQL database design.
+7. Initial official-source connector framework.
+8. Data quality engine.
+9. Technical feedback dashboard.
+10. Financial charting framework.
+11. Initial macroeconomic indicators.
+12. AI assistant interface.
+13. Automated tests.
+14. Installation documentation.
+15. Implementation status report.
+
+### FINAL INSTRUCTION
+
+Prioritize correctness, traceability, financial integrity, statistical rigor, maintainability and professional user experience.
+
+The final product must become a serious private economic intelligence platform focused on Brazil and its relationship with global markets.
+
+Build a complete, extensible and technically auditable foundation.
+
+Start implementation now.

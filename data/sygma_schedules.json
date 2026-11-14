@@ -1,0 +1,23 @@
+{
+  "schedules": [],
+  "deliveries": [
+    {
+      "id": "dlv-9a3df07f85",
+      "scheduleId": "sch-1d94db3e",
+      "scheduleName": "Probe Executivo SWOT Diario",
+      "reportType": "CONSOLIDATED_BRAZIL_SWOT",
+      "deliveryChannel": "SYSTEM",
+      "recipientEmail": "",
+      "executedAt": "2026-11-14T18:20:26.917Z",
+      "triggerMode": "MANUAL",
+      "status": "DELIVERED",
+      "emailStatus": "NOT_APPLICABLE",
+      "systemStatus": "STORED",
+      "pdfFilename": "sygma_consolidated_brazil_swot_2026-11-14-18-20.pdf",
+      "pdfBytes": 16930,
+      "sha256": "0fd6b235789d98c185f4978b705cad883782e0179322e3d430fe458180b40a7c",
+      "message": "PDF institucional arquivado no sistema (16.930 bytes).",
+      "acknowledged": true
+    }
+  ]
+}
